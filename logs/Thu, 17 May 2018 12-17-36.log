@@ -1,0 +1,191 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                             BISHAL BUDHATHOKI                                                    *
+INFO:tt_main:*                                             BIPLOVE SHAKYA                                                       *
+INFO:tt_main:*                                             SHEKHAR PALIT                                                        *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   S.J.C. Institute of Technology, SJCIT                                          *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+DEBUG:tt_main:Initializing and setting up fifth window
+DEBUG:tt_main:Year Window
+INFO:tt_main:Academic year: January 2018 January 2018 Department: Computer Science & Engineering
+DEBUG:tt_main:First Window
+INFO:tt_main:File Menu option clicked: Load
+DEBUG:tt_main:Load confirmed
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/csedept.json
+INFO:tt_main:Loading from json file
+DEBUG:tt_main:Success. Loaded all saved data from D:/Projects/timetable-master/timetable-master/Sample Inputs/csedept.json
+DEBUG:tt_main:Reset all windows and displaying 1st window
+DEBUG:tt_main:Resetting First Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', OrderedDict()), ('IV', OrderedDict()), ('V', OrderedDict()), ('VI', OrderedDict([('A', ['CNC - CNC - Harshavardhan', 'CGV - CGV - Sushmitha M', 'MC - MC - Rashmi K A', 'PAP - PAP - Shashikanth T S', 'OR - OR - Girish B G', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M', 'CG | SS&OS LAB - CG | SS&OS LAB - Sushmitha M, Shrihari M R']), ('B', ['CNC - CNC - Apoorva S', 'CGV - CGV - Srinath G M', 'PAP - PAP - Shashikanth T S', 'OR - OR - Vinutha K', 'SS&CD - SS&CD - Ajay N', 'OS - OS - Diwakar K M', 'CG | SS&OS LAB - CG | SS&OS LAB - Srinath G M, Ajay N'])])), ('VII', OrderedDict()), ('VIII', OrderedDict([('A', ['SA - SA - Apoorva S', 'SMS - SMS - Bhararthi M', 'PS - PS - Ajay N', 'TS - TS - Srinath G M', 'CGC - CGC - Vinutha K', 'ST - ST - Ajay H C', 'INS - INS - Harshavardhan', 'NMS - NMS - Venkatesh K M']), ('B', ['ST - ST - Ajay H C', 'INS - INS - Rashmi K A', 'SA - SA - Jagadish N', 'SMS - SMS - Srinivas Murthy H', 'CGC - CGC - Sushmitha M', 'NMS - NMS - Venkatesh K M', 'TS - TS - Srinath G M', 'PS - PS - Ajay N'])]))])
+DEBUG:tt_main:Resetting Third Window
+DEBUG:tt_main:Resetting Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Resetting Elective Window
+DEBUG:tt_main:Resetting Year Window
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', OrderedDict()), ('IV', OrderedDict()), ('V', OrderedDict()), ('VI', OrderedDict([('A', ['CNC - CNC - Harshavardhan', 'CGV - CGV - Sushmitha M', 'MC - MC - Rashmi K A', 'PAP - PAP - Shashikanth T S', 'OR - OR - Girish B G', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M', 'CG | SS&OS LAB - CG | SS&OS LAB - Sushmitha M, Shrihari M R']), ('B', ['CNC - CNC - Apoorva S', 'CGV - CGV - Srinath G M', 'PAP - PAP - Shashikanth T S', 'OR - OR - Vinutha K', 'SS&CD - SS&CD - Ajay N', 'OS - OS - Diwakar K M', 'CG | SS&OS LAB - CG | SS&OS LAB - Srinath G M, Ajay N'])])), ('VII', OrderedDict()), ('VIII', OrderedDict([('A', ['SA - SA - Apoorva S', 'SMS - SMS - Bhararthi M', 'PS - PS - Ajay N', 'TS - TS - Srinath G M', 'CGC - CGC - Vinutha K', 'ST - ST - Ajay H C', 'INS - INS - Harshavardhan', 'NMS - NMS - Venkatesh K M']), ('B', ['ST - ST - Ajay H C', 'INS - INS - Rashmi K A', 'SA - SA - Jagadish N', 'SMS - SMS - Srinivas Murthy H', 'CGC - CGC - Sushmitha M', 'NMS - NMS - Venkatesh K M', 'TS - TS - Srinath G M', 'PS - PS - Ajay N'])]))])
+DEBUG:tt_main:Third Window
+DEBUG:tt_main:Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Fifth Window
+DEBUG:tt_main:Generating timetable...
+Scheduling slots...
+Alotting subjects to slots...
+INFO:tt_algo:VI A                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:tuesday              CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:VI B                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:VIII B               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:...generating...
+INFO:tt_algo:
+INFO:tt_algo:no free slots for VI A ['CGV', 5, 'Sushmitha M', 'CGV']
+INFO:tt_algo:no free slots for VI A ['MC', 5, 'Rashmi K A', 'MC']
+INFO:tt_algo:no free slots for VI A ['PAP', 5, 'Shashikanth T S', 'PAP']
+INFO:tt_algo:VI A                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               CNC                  CGV                  MC                   PAP                  -                    OR                   SS&CD                OS                  
+INFO:tt_algo:tuesday              CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       SS&CD                -                    OS                   PAP                  OR                  
+INFO:tt_algo:wednesday            CNC                  CGV                  MC                   -                    -                    PAP                  OR                   SS&CD               
+INFO:tt_algo:thursday             OR                   SS&CD                OS                   CNC                  -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:friday               CGV                  MC                   PAP                  OR                   -                    SS&CD                CNC                  OS                  
+INFO:tt_algo:saturday             OS                   CNC                  CGV                  MC                  
+INFO:tt_algo:
+
+INFO:tt_algo:
+INFO:tt_algo:no free slots for VI B ['PAP', 5, 'Shashikanth T S', 'PAP']
+INFO:tt_algo:no free slots for VI B ['OR', 5, 'Vinutha K', 'OR']
+INFO:tt_algo:VI B                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               CNC                  CGV                  PAP                  OR                   -                    SS&CD                OS                   -                   
+INFO:tt_algo:tuesday              OS                   CNC                  CGV                  PAP                  -                    OR                   SS&CD                -                   
+INFO:tt_algo:wednesday            CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       -                    -                    SS&CD                CNC                  CGV                 
+INFO:tt_algo:thursday             OS                   CNC                  CGV                  PAP                  -                    OR                   -                    -                   
+INFO:tt_algo:friday               SS&CD                OS                   CNC                  CGV                  -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:saturday             PAP                  OR                   SS&CD                OS                  
+INFO:tt_algo:
+
+INFO:tt_algo:
+INFO:tt_algo:no free slots for VIII A ['INS', 5, 'Harshavardhan', 'INS']
+INFO:tt_algo:no free slots for VIII A ['NMS', 5, 'Venkatesh K M', 'NMS']
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               SA                   SMS                  PS                   TS                   -                    CGC                  ST                   INS                 
+INFO:tt_algo:tuesday              ST                   INS                  NMS                  SA                   -                    SMS                  PS                   TS                  
+INFO:tt_algo:wednesday            CGC                  ST                   INS                  PS                   -                    TS                   NMS                  SA                  
+INFO:tt_algo:thursday             NMS                  SA                   SMS                  PS                   -                    TS                   CGC                  ST                  
+INFO:tt_algo:friday               CGC                  ST                   INS                  NMS                  -                    SA                   SMS                  -                   
+INFO:tt_algo:saturday             SMS                  PS                   TS                   CGC                 
+INFO:tt_algo:
+
+INFO:tt_algo:
+INFO:tt_algo:no free slots for VIII B ['CGC', 5, 'Sushmitha M', 'CGC']
+INFO:tt_algo:no free slots for VIII B ['PS', 5, 'Ajay N', 'PS']
+INFO:tt_algo:VIII B               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               ST                   INS                  SA                   SMS                  -                    CGC                  NMS                  TS                  
+INFO:tt_algo:tuesday              NMS                  TS                   PS                   ST                   -                    INS                  SA                   SMS                 
+INFO:tt_algo:wednesday            SA                   SMS                  CGC                  NMS                  -                    TS                   PS                   ST                  
+INFO:tt_algo:thursday             PS                   ST                   INS                  SA                   -                    SMS                  NMS                  TS                  
+INFO:tt_algo:friday               CGC                  NMS                  TS                   PS                   -                    ST                   INS                  -                   
+INFO:tt_algo:saturday             INS                  SA                   SMS                  CGC                 
+INFO:tt_algo:
+
+INFO:tt_algo:...adjusting clashes...
+INFO:tt_algo:VI A                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               PAP                  CGV                  CGV                  MC                   -                    MC                   SS&CD                OS                  
+INFO:tt_algo:tuesday              CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       CNC                  -                    SS&CD                PAP                  OS                  
+INFO:tt_algo:wednesday            CGV                  CNC                  MC                   -                    -                    PAP                  OS                   SS&CD               
+INFO:tt_algo:thursday             PAP                  SS&CD                OR                   CNC                  -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:friday               CGV                  MC                   PAP                  OS                   -                    SS&CD                CNC                  OS                  
+INFO:tt_algo:saturday             CGV                  CNC                  OR                   MC                  
+INFO:tt_algo:
+
+INFO:tt_algo:VI B                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               OR                   CGV                  PAP                  OR                   -                    SS&CD                CNC                  PAP                 
+INFO:tt_algo:tuesday              SS&CD                CNC                  CGV                  PAP                  -                    OR                   OS                   -                   
+INFO:tt_algo:wednesday            CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       -                    -                    CNC                  OS                   CGV                 
+INFO:tt_algo:thursday             OR                   CNC                  CGV                  PAP                  -                    SS&CD                OS                   -                   
+INFO:tt_algo:friday               SS&CD                OS                   CNC                  CGV                  -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:saturday             PAP                  OR                   SS&CD                OS                  
+INFO:tt_algo:
+
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               INS                  NMS                  PS                   TS                   -                    CGC                  ST                   INS                 
+INFO:tt_algo:tuesday              SMS                  INS                  NMS                  SA                   -                    SA                   PS                   TS                  
+INFO:tt_algo:wednesday            SMS                  ST                   ST                   CGC                  -                    INS                  NMS                  SA                  
+INFO:tt_algo:thursday             PS                   TS                   SMS                  PS                   -                    TS                   CGC                  ST                  
+INFO:tt_algo:friday               SA                   ST                   INS                  NMS                  -                    NMS                  SA                   CGC                 
+INFO:tt_algo:saturday             TS                   PS                   SMS                  CGC                 
+INFO:tt_algo:
+
+INFO:tt_algo:VIII B               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               PS                   INS                  ST                   NMS                  -                    TS                   CGC                  PS                  
+INFO:tt_algo:tuesday              INS                  TS                   PS                   ST                   -                    CGC                  NMS                  SMS                 
+INFO:tt_algo:wednesday            SA                   SMS                  CGC                  NMS                  -                    TS                   PS                   ST                  
+INFO:tt_algo:thursday             SA                   ST                   INS                  SA                   -                    SMS                  NMS                  TS                  
+INFO:tt_algo:friday               TS                   NMS                  CGC                  PS                   -                    ST                   INS                  SA                  
+INFO:tt_algo:saturday             INS                  SA                   SMS                  CGC                 
+INFO:tt_algo:
+
+INFO:tt_algo:VI A ['OR', 5, 'Girish B G', 'OR']
+INFO:tt_algo:VIII A ['SMS', 5, 'Bhararthi M', 'SMS']
+INFO:tt_algo:VI A ['OR', 5, 'Girish B G', 'OR']
+INFO:tt_algo:VIII B ['SMS', 5, 'Srinivas Murthy H', 'SMS']
+INFO:tt_algo:VI A ['OR', 5, 'Girish B G', 'OR']
+INFO:tt_algo:5
+DEBUG:tt_main:Displaying timetable for  
+DEBUG:tt_main:Results display dialog
+INFO:tt_main:Students
+DEBUG:tt_main:Populating section combobox for VI semester
+DEBUG:tt_main:Displaying timetable for VI A
+INFO:tt_main:Printing...
+INFO:tt_main:Students
+INFO:tt_main:Printing timetable for VI A
+DEBUG:tt_main:User has clicked on Exit/Finish/'X'
+DEBUG:tt_main:User clicked Yes
+DEBUG:tt_main:Quitting Program by user's choice, no errors

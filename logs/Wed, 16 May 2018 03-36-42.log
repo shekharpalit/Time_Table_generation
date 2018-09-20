@@ -1,0 +1,148 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                             BISHAL BUDHATHOKI                                                    *
+INFO:tt_main:*                                             BIPLOVE SHAKYA                                                       *
+INFO:tt_main:*                                             SHEKHAR PALIT                                                        *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   S.J.C. Institute of Technology, SJCIT                                          *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+DEBUG:tt_main:Initializing and setting up fifth window
+DEBUG:tt_main:Year Window
+INFO:tt_main:Academic year: January 2018 July 2018 Department: Computer Science & Engineering
+DEBUG:tt_main:First Window
+INFO:tt_main:File Menu option clicked: Load
+DEBUG:tt_main:Load confirmed
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/current.json
+INFO:tt_main:Loading from json file
+DEBUG:tt_main:Success. Loaded all saved data from D:/Projects/timetable-master/timetable-master/Sample Inputs/current.json
+DEBUG:tt_main:Reset all windows and displaying 1st window
+DEBUG:tt_main:Resetting First Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('IV', OrderedDict()), ('VII', OrderedDict([('E', ['Mobile Application Development - MAD - Rajashree']), ('A', ['Object Oriented Modeling and Design - OOMD - Ranjan Kumar H S', 'Advanced Computer Architecture - ACA - Sandeep Hegde', 'Software Architecture - SA - Sandeep Hegde', 'Python Programming - PP - Pawan Hegde', 'Advanced Web Techniques - AWT - Roshan Fernandes', 'Machine Learning - ML - Sarika Hegde', 'Mobile Application Development - MAD - Shabari Shedthi B', 'Image Processing - IP - Mohammed Javed', 'Python Programming Lab - PP Lab - Pawan Hegde']), ('B', ['Object Oriented Modeling and Design - OOMD - Keerthana B C', 'Advanced Computer Architecture - ACA - Rajalaxmi Hegde', 'Software Architecture - SA - Shilpa M K', 'Python Programming - PP - Vijay Murari T', 'Advanced Web Techniques - AWT - Shashank Shetty', 'Machine Learning - ML - Minu P Abraham', 'Mobile Application Development - MAD - Ravi B', 'Python Programming Lab - PP Lab - Vijay Murari T']), ('D', ['Object Oriented Modeling and Design - OOMD - Puneeth R P', 'Advanced Computer Architecture - ACA - Shabari Shedthi B', 'Software Architecture - SA - Rajalaxmi Hegde', 'Python Programming - PP - Venugopala P S', 'Mobile Application Development - MAD - Ankitha A Nayak', 'Python Programming Lab - PP Lab - Venugopala P S']), ('C', ['Object Oriented Modeling and Design - OOMD - Sunil Kumar Aithal', 'Advanced Computer Architecture - ACA - Mohammed Javed', 'Software Architecture - SA - Sampath Kini', 'Python Programming - PP - Ranjan Kumar H S', 'Mobile Application Development - MAD - Venugopala P S', 'Python Programming Lab - PP Lab - Ranjan Kumar H S'])])), ('VIII', OrderedDict()), ('VI', OrderedDict()), ('V', OrderedDict([('A', ['Compiler Design - CD - Chandra Naik', 'Relational Database Management System - RDBMS - Radhakrishna Dodmane', 'Microprocessors and Peripherals - MP - Roshan Fernandes', 'Software Engineering - SE - Sudeepa K B', 'Operating Systems - OS - Jyothi Shetty', "Advanced Unix Programming - AUP - Divya Jennifer D'Souza", 'Operations Research - OR - Vijay Murari T', 'Employability Skill Development - ESD - -', 'Microprocessors and Peripherals Lab - MP Lab - Roshan Fernandes', 'Compiler Design | Relational Database Management System Lab - CD | RDBMS Lab - Chandra Naik, Radhakrishna Dodmane']), ('B', ['Compiler Design - CD - Jyothi Shetty', 'Relational Database Management System - RDBMS - Swathi Pai M', 'Microprocessors and Peripherals - MP - Anisha P Rodrigues', 'Software Engineering - SE - Sunil Kumar Aithal', 'Operating Systems - OS - Sampath Kini', 'Operations Research - OR - Asmitha Poojari', 'Employability Skill Development - ESD - -', 'Microprocessors and Peripherals Lab - MP Lab - Anisha P Rodrigues', 'Compiler Design | Relational Database Management System Lab - CD | RDBMS Lab - Jyothi Shetty, Swathi Pai M']), ('D', ['Compiler Design - CD - Shashank Shetty', 'Relational Database Management System - RDBMS - Sudeepa K B', 'Microprocessors and Peripherals - MP - Shilpa M K', 'Software Engineering - SE - Naveen Chandavarkar', 'Operating Systems - OS - Sharada Uday Shenoy', 'Employability Skill Development - ESD - -', 'Microprocessors and Peripherals Lab - MP Lab - Shilpa M K', 'Compiler Design | Relational Database Management System Lab - CD | RDBMS Lab - Shashank Shetty, Sudeepa K B']), ('C', ['Compiler Design - CD - Pallavi K N', 'Relational Database Management System - RDBMS - Rajashree', 'Microprocessors and Peripherals - MP - Krishna Prasad Rao', 'Software Engineering - SE - D K Sreekantha', 'Operating Systems - OS - Ramesha Shettigar', 'Operations Research - OR - Pawan Hegde', 'Employability Skill Development - ESD - -', 'Microprocessors and Peripherals Lab - MP Lab - Krishna Prasad Rao', 'Compiler Design | Relational Database Management System Lab - CD | RDBMS Lab - Pallavi K N, Rajashree'])])), ('III', OrderedDict([('A', ['Generating Functions and Transform Techniques Combinatorics - Maths - Maths Faculty', 'Digital System Design - DSD - Raghunandan K R', 'Discrete Mathematical Stuctures & Graph Theory - DMS - Uday Kumar Reddy', 'Computer Organization and Design - CO - Pradeep Nazareth', 'Data Structures - DS - Sannidhan M S', 'Data Communication - DC - Uday Kumar Shenoy', 'Data Structures | Digital System Design Lab - DS | DSD Lab - Sannidhan M S, Raghunandan K R']), ('B', ['Generating Functions and Transform Techniques Combinatorics - Maths - Maths Faculty', 'Digital System Design - DSD - Sannidhan M S', 'Discrete Mathematical Stuctures & Graph Theory - DMS - Minu P Abraham', 'Computer Organization and Design - CO - Raghunandan K R', 'Data Structures - DS - Asmitha Poojari', 'Data Communication - DC - Radhakrishna Dodmane', 'Data Structures | Digital System Design Lab - DS | DSD Lab - Asmitha Poojari, Sannidhan M S']), ('D', ['Generating Functions and Transform Techniques Combinatorics - Maths - Maths Faculty', 'Digital System Design - DSD - Pradeep Nazareth', 'Discrete Mathematical Stuctures & Graph Theory - DMS - Chandra Naik', 'Computer Organization and Design - CO - Uday Kumar Shenoy', 'Data Structures - DS - Shruthi', 'Data Communication - DC - Krishna Prasad Rao', 'Data Structures | Digital System Design Lab - DS | DSD Lab - Shruthi, Pradeep Nazareth']), ('C', ['Generating Functions and Transform Techniques Combinatorics - Maths - Maths Faculty', 'Digital System Design - DSD - Keerthana B C', 'Discrete Mathematical Stuctures & Graph Theory - DMS - Ravi B', 'Computer Organization and Design - CO - Anisha P Rodrigues', 'Data Structures - DS - Ramesha Shettigar', 'Data Communication - DC - Puneeth R P', 'Data Structures | Digital System Design Lab - DS | DSD Lab - Ramesha Shettigar, Keerthana B C'])]))])
+DEBUG:tt_main:Resetting Third Window
+DEBUG:tt_main:Resetting Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Resetting Elective Window
+DEBUG:tt_main:Resetting Year Window
+INFO:tt_main:Input type: Subjects
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Input type: Faculty
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('IV', OrderedDict()), ('VII', OrderedDict([('E', ['Mobile Application Development - MAD - Rajashree']), ('A', ['Object Oriented Modeling and Design - OOMD - Ranjan Kumar H S', 'Advanced Computer Architecture - ACA - Sandeep Hegde', 'Software Architecture - SA - Sandeep Hegde', 'Python Programming - PP - Pawan Hegde', 'Advanced Web Techniques - AWT - Roshan Fernandes', 'Machine Learning - ML - Sarika Hegde', 'Mobile Application Development - MAD - Shabari Shedthi B', 'Image Processing - IP - Mohammed Javed', 'Python Programming Lab - PP Lab - Pawan Hegde']), ('B', ['Object Oriented Modeling and Design - OOMD - Keerthana B C', 'Advanced Computer Architecture - ACA - Rajalaxmi Hegde', 'Software Architecture - SA - Shilpa M K', 'Python Programming - PP - Vijay Murari T', 'Advanced Web Techniques - AWT - Shashank Shetty', 'Machine Learning - ML - Minu P Abraham', 'Mobile Application Development - MAD - Ravi B', 'Python Programming Lab - PP Lab - Vijay Murari T']), ('D', ['Object Oriented Modeling and Design - OOMD - Puneeth R P', 'Advanced Computer Architecture - ACA - Shabari Shedthi B', 'Software Architecture - SA - Rajalaxmi Hegde', 'Python Programming - PP - Venugopala P S', 'Mobile Application Development - MAD - Ankitha A Nayak', 'Python Programming Lab - PP Lab - Venugopala P S']), ('C', ['Object Oriented Modeling and Design - OOMD - Sunil Kumar Aithal', 'Advanced Computer Architecture - ACA - Mohammed Javed', 'Software Architecture - SA - Sampath Kini', 'Python Programming - PP - Ranjan Kumar H S', 'Mobile Application Development - MAD - Venugopala P S', 'Python Programming Lab - PP Lab - Ranjan Kumar H S'])])), ('VIII', OrderedDict()), ('VI', OrderedDict()), ('V', OrderedDict([('A', ['Compiler Design - CD - Chandra Naik', 'Relational Database Management System - RDBMS - Radhakrishna Dodmane', 'Microprocessors and Peripherals - MP - Roshan Fernandes', 'Software Engineering - SE - Sudeepa K B', 'Operating Systems - OS - Jyothi Shetty', "Advanced Unix Programming - AUP - Divya Jennifer D'Souza", 'Operations Research - OR - Vijay Murari T', 'Employability Skill Development - ESD - -', 'Microprocessors and Peripherals Lab - MP Lab - Roshan Fernandes', 'Compiler Design | Relational Database Management System Lab - CD | RDBMS Lab - Chandra Naik, Radhakrishna Dodmane']), ('B', ['Compiler Design - CD - Jyothi Shetty', 'Relational Database Management System - RDBMS - Swathi Pai M', 'Microprocessors and Peripherals - MP - Anisha P Rodrigues', 'Software Engineering - SE - Sunil Kumar Aithal', 'Operating Systems - OS - Sampath Kini', 'Operations Research - OR - Asmitha Poojari', 'Employability Skill Development - ESD - -', 'Microprocessors and Peripherals Lab - MP Lab - Anisha P Rodrigues', 'Compiler Design | Relational Database Management System Lab - CD | RDBMS Lab - Jyothi Shetty, Swathi Pai M']), ('D', ['Compiler Design - CD - Shashank Shetty', 'Relational Database Management System - RDBMS - Sudeepa K B', 'Microprocessors and Peripherals - MP - Shilpa M K', 'Software Engineering - SE - Naveen Chandavarkar', 'Operating Systems - OS - Sharada Uday Shenoy', 'Employability Skill Development - ESD - -', 'Microprocessors and Peripherals Lab - MP Lab - Shilpa M K', 'Compiler Design | Relational Database Management System Lab - CD | RDBMS Lab - Shashank Shetty, Sudeepa K B']), ('C', ['Compiler Design - CD - Pallavi K N', 'Relational Database Management System - RDBMS - Rajashree', 'Microprocessors and Peripherals - MP - Krishna Prasad Rao', 'Software Engineering - SE - D K Sreekantha', 'Operating Systems - OS - Ramesha Shettigar', 'Operations Research - OR - Pawan Hegde', 'Employability Skill Development - ESD - -', 'Microprocessors and Peripherals Lab - MP Lab - Krishna Prasad Rao', 'Compiler Design | Relational Database Management System Lab - CD | RDBMS Lab - Pallavi K N, Rajashree'])])), ('III', OrderedDict([('A', ['Generating Functions and Transform Techniques Combinatorics - Maths - Maths Faculty', 'Digital System Design - DSD - Raghunandan K R', 'Discrete Mathematical Stuctures & Graph Theory - DMS - Uday Kumar Reddy', 'Computer Organization and Design - CO - Pradeep Nazareth', 'Data Structures - DS - Sannidhan M S', 'Data Communication - DC - Uday Kumar Shenoy', 'Data Structures | Digital System Design Lab - DS | DSD Lab - Sannidhan M S, Raghunandan K R']), ('B', ['Generating Functions and Transform Techniques Combinatorics - Maths - Maths Faculty', 'Digital System Design - DSD - Sannidhan M S', 'Discrete Mathematical Stuctures & Graph Theory - DMS - Minu P Abraham', 'Computer Organization and Design - CO - Raghunandan K R', 'Data Structures - DS - Asmitha Poojari', 'Data Communication - DC - Radhakrishna Dodmane', 'Data Structures | Digital System Design Lab - DS | DSD Lab - Asmitha Poojari, Sannidhan M S']), ('D', ['Generating Functions and Transform Techniques Combinatorics - Maths - Maths Faculty', 'Digital System Design - DSD - Pradeep Nazareth', 'Discrete Mathematical Stuctures & Graph Theory - DMS - Chandra Naik', 'Computer Organization and Design - CO - Uday Kumar Shenoy', 'Data Structures - DS - Shruthi', 'Data Communication - DC - Krishna Prasad Rao', 'Data Structures | Digital System Design Lab - DS | DSD Lab - Shruthi, Pradeep Nazareth']), ('C', ['Generating Functions and Transform Techniques Combinatorics - Maths - Maths Faculty', 'Digital System Design - DSD - Keerthana B C', 'Discrete Mathematical Stuctures & Graph Theory - DMS - Ravi B', 'Computer Organization and Design - CO - Anisha P Rodrigues', 'Data Structures - DS - Ramesha Shettigar', 'Data Communication - DC - Puneeth R P', 'Data Structures | Digital System Design Lab - DS | DSD Lab - Ramesha Shettigar, Keerthana B C'])]))])
+DEBUG:tt_main:Third Window
+INFO:tt_main:Semester: IV
+INFO:tt_main:Subject constraints: {'VII': {'E': {0: {4: '-'}, 1: {2: 'AWT/ML', 3: 'MAD/IP', 4: '-'}, 2: {3: 'AWT/ML', 4: '-'}, 3: {1: 'AWT/ML', 2: 'MAD/IP', 3: 'MAD/IP', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {3: '-'}}, 'A': {0: {4: '-', 5: 'PP Lab', 6: 'PP Lab', 7: 'PP Lab'}, 1: {2: 'AWT/ML', 3: 'MAD/IP', 4: '-'}, 2: {3: 'AWT/ML', 4: '-'}, 3: {1: 'AWT/ML', 2: 'MAD/IP', 3: 'MAD/IP', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {0: 'PP Lab', 1: 'PP Lab', 2: 'PP Lab', 4: '-'}, 5: {3: '-'}}, 'B': {0: {4: '-'}, 1: {2: 'AWT/ML', 3: 'MAD/IP', 4: '-', 5: 'PP Lab', 6: 'PP Lab', 7: 'PP Lab'}, 2: {0: 'PP Lab', 1: 'PP Lab', 2: 'PP Lab', 3: 'AWT/ML', 4: '-'}, 3: {1: 'AWT/ML', 2: 'MAD/IP', 3: 'MAD/IP', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {3: '-'}}, 'D': {0: {4: '-'}, 1: {2: 'AWT/ML', 3: 'MAD/IP', 4: '-'}, 2: {0: 'PP Lab', 1: 'PP Lab', 2: 'PP Lab', 3: 'AWT/ML', 4: '-'}, 3: {1: 'AWT/ML', 2: 'MAD/IP', 3: 'MAD/IP', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-', 5: 'PP Lab', 6: 'PP Lab', 7: 'PP Lab'}, 5: {3: '-'}}, 'C': {0: {0: 'PP Lab', 1: 'PP Lab', 2: 'PP Lab', 4: '-'}, 1: {2: 'AWT/ML', 3: 'MAD/IP', 4: '-'}, 2: {3: 'AWT/ML', 4: '-', 5: 'PP Lab', 6: 'PP Lab', 7: 'PP Lab'}, 3: {1: 'AWT/ML', 2: 'MAD/IP', 3: 'MAD/IP', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {3: '-'}}}, 'III': {'A': {0: {0: 'Maths', 1: 'DS | DSD Lab', 2: 'DS | DSD Lab', 3: 'DS | DSD Lab', 4: '-'}, 1: {4: '-', 5: 'Maths'}, 2: {4: '-', 5: 'DS | DSD Lab', 6: 'DS | DSD Lab', 7: 'DS | DSD Lab'}, 3: {3: 'Maths', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {2: 'Maths', 3: '-'}}, 'B': {0: {4: '-', 5: 'DS | DSD Lab', 6: 'DS | DSD Lab', 7: 'DS | DSD Lab'}, 1: {3: 'Maths', 4: '-'}, 2: {4: '-', 5: 'Maths'}, 3: {0: 'Maths', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {1: 'DS | DSD Lab', 2: 'DS | DSD Lab', 3: 'DS | DSD Lab', 4: '-'}, 5: {0: 'Maths', 3: '-'}}, 'D': {0: {1: 'Maths', 4: '-'}, 1: {1: 'DS | DSD Lab', 2: 'DS | DSD Lab', 3: 'DS | DSD Lab', 4: '-', 5: 'Maths'}, 2: {4: '-'}, 3: {2: 'Maths', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {3: 'Maths', 4: '-', 5: 'DS | DSD Lab', 6: 'DS | DSD Lab', 7: 'DS | DSD Lab'}, 5: {3: '-'}}, 'C': {0: {4: '-', 5: 'Maths'}, 1: {3: 'Maths', 4: '-', 5: 'DS | DSD Lab', 6: 'DS | DSD Lab', 7: 'DS | DSD Lab'}, 2: {1: 'DS | DSD Lab', 2: 'DS | DSD Lab', 3: 'DS | DSD Lab', 4: '-', 5: 'Maths'}, 3: {1: 'Maths', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {3: '-'}}}, 'V': {'A': {0: {4: '-', 5: 'CD | RDBMS Lab', 6: 'CD | RDBMS Lab', 7: 'CD | RDBMS Lab'}, 1: {0: 'MP Lab', 1: 'MP Lab', 2: 'MP Lab', 3: 'AUP/OR', 4: '-'}, 2: {4: '-', 5: 'MP Lab', 6: 'MP Lab', 7: 'MP Lab'}, 3: {2: 'AUP/OR', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {1: 'CD | RDBMS Lab', 2: 'CD | RDBMS Lab', 3: 'CD | RDBMS Lab', 4: '-'}, 5: {3: 'AUP/OR'}}, 'B': {0: {4: '-', 5: 'MP Lab', 6: 'MP Lab', 7: 'MP Lab'}, 1: {3: 'AUP/OR', 4: '-', 5: 'CD | RDBMS Lab', 6: 'CD | RDBMS Lab', 7: 'CD | RDBMS Lab'}, 2: {0: 'MP Lab', 1: 'MP Lab', 2: 'MP Lab', 4: '-'}, 3: {2: 'AUP/OR', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {0: 'CD | RDBMS Lab', 1: 'CD | RDBMS Lab', 2: 'CD | RDBMS Lab', 4: '-'}, 5: {3: 'AUP/OR'}}, 'D': {0: {0: 'MP Lab', 1: 'MP Lab', 2: 'MP Lab', 4: '-'}, 1: {0: 'CD | RDBMS Lab', 1: 'CD | RDBMS Lab', 2: 'CD | RDBMS Lab', 3: 'AUP/OR', 4: '-'}, 2: {4: '-', 5: 'MP Lab', 6: 'MP Lab', 7: 'MP Lab'}, 3: {2: 'AUP/OR', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-', 5: 'CD | RDBMS Lab', 6: 'CD | RDBMS Lab', 7: 'CD | RDBMS Lab'}, 5: {3: 'AUP/OR'}}, 'C': {0: {4: '-'}, 1: {0: 'CD | RDBMS Lab', 1: 'CD | RDBMS Lab', 2: 'CD | RDBMS Lab', 3: 'AUP/OR', 4: '-'}, 2: {4: '-', 5: 'CD | RDBMS Lab', 6: 'CD | RDBMS Lab', 7: 'CD | RDBMS Lab'}, 3: {2: 'AUP/OR', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {0: 'MP Lab', 1: 'MP Lab', 2: 'MP Lab', 4: '-'}, 5: {0: 'MP Lab', 1: 'MP Lab', 2: 'MP Lab', 3: 'AUP/OR'}}}}
+INFO:tt_main:Semester: III
+INFO:tt_main:Subject constraints: {'VII': {'E': {0: {4: '-'}, 1: {2: 'AWT/ML', 3: 'MAD/IP', 4: '-'}, 2: {3: 'AWT/ML', 4: '-'}, 3: {1: 'AWT/ML', 2: 'MAD/IP', 3: 'MAD/IP', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {3: '-'}}, 'A': {0: {4: '-', 5: 'PP Lab', 6: 'PP Lab', 7: 'PP Lab'}, 1: {2: 'AWT/ML', 3: 'MAD/IP', 4: '-'}, 2: {3: 'AWT/ML', 4: '-'}, 3: {1: 'AWT/ML', 2: 'MAD/IP', 3: 'MAD/IP', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {0: 'PP Lab', 1: 'PP Lab', 2: 'PP Lab', 4: '-'}, 5: {3: '-'}}, 'B': {0: {4: '-'}, 1: {2: 'AWT/ML', 3: 'MAD/IP', 4: '-', 5: 'PP Lab', 6: 'PP Lab', 7: 'PP Lab'}, 2: {0: 'PP Lab', 1: 'PP Lab', 2: 'PP Lab', 3: 'AWT/ML', 4: '-'}, 3: {1: 'AWT/ML', 2: 'MAD/IP', 3: 'MAD/IP', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {3: '-'}}, 'D': {0: {4: '-'}, 1: {2: 'AWT/ML', 3: 'MAD/IP', 4: '-'}, 2: {0: 'PP Lab', 1: 'PP Lab', 2: 'PP Lab', 3: 'AWT/ML', 4: '-'}, 3: {1: 'AWT/ML', 2: 'MAD/IP', 3: 'MAD/IP', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-', 5: 'PP Lab', 6: 'PP Lab', 7: 'PP Lab'}, 5: {3: '-'}}, 'C': {0: {0: 'PP Lab', 1: 'PP Lab', 2: 'PP Lab', 4: '-'}, 1: {2: 'AWT/ML', 3: 'MAD/IP', 4: '-'}, 2: {3: 'AWT/ML', 4: '-', 5: 'PP Lab', 6: 'PP Lab', 7: 'PP Lab'}, 3: {1: 'AWT/ML', 2: 'MAD/IP', 3: 'MAD/IP', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {3: '-'}}}, 'III': {'A': {0: {0: 'Maths', 1: 'DS | DSD Lab', 2: 'DS | DSD Lab', 3: 'DS | DSD Lab', 4: '-'}, 1: {4: '-', 5: 'Maths'}, 2: {4: '-', 5: 'DS | DSD Lab', 6: 'DS | DSD Lab', 7: 'DS | DSD Lab'}, 3: {3: 'Maths', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {2: 'Maths', 3: '-'}}, 'B': {0: {4: '-', 5: 'DS | DSD Lab', 6: 'DS | DSD Lab', 7: 'DS | DSD Lab'}, 1: {3: 'Maths', 4: '-'}, 2: {4: '-', 5: 'Maths'}, 3: {0: 'Maths', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {1: 'DS | DSD Lab', 2: 'DS | DSD Lab', 3: 'DS | DSD Lab', 4: '-'}, 5: {0: 'Maths', 3: '-'}}, 'D': {0: {1: 'Maths', 4: '-'}, 1: {1: 'DS | DSD Lab', 2: 'DS | DSD Lab', 3: 'DS | DSD Lab', 4: '-', 5: 'Maths'}, 2: {4: '-'}, 3: {2: 'Maths', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {3: 'Maths', 4: '-', 5: 'DS | DSD Lab', 6: 'DS | DSD Lab', 7: 'DS | DSD Lab'}, 5: {3: '-'}}, 'C': {0: {4: '-', 5: 'Maths'}, 1: {3: 'Maths', 4: '-', 5: 'DS | DSD Lab', 6: 'DS | DSD Lab', 7: 'DS | DSD Lab'}, 2: {1: 'DS | DSD Lab', 2: 'DS | DSD Lab', 3: 'DS | DSD Lab', 4: '-', 5: 'Maths'}, 3: {1: 'Maths', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {3: '-'}}}, 'V': {'A': {0: {4: '-', 5: 'CD | RDBMS Lab', 6: 'CD | RDBMS Lab', 7: 'CD | RDBMS Lab'}, 1: {0: 'MP Lab', 1: 'MP Lab', 2: 'MP Lab', 3: 'AUP/OR', 4: '-'}, 2: {4: '-', 5: 'MP Lab', 6: 'MP Lab', 7: 'MP Lab'}, 3: {2: 'AUP/OR', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {1: 'CD | RDBMS Lab', 2: 'CD | RDBMS Lab', 3: 'CD | RDBMS Lab', 4: '-'}, 5: {3: 'AUP/OR'}}, 'B': {0: {4: '-', 5: 'MP Lab', 6: 'MP Lab', 7: 'MP Lab'}, 1: {3: 'AUP/OR', 4: '-', 5: 'CD | RDBMS Lab', 6: 'CD | RDBMS Lab', 7: 'CD | RDBMS Lab'}, 2: {0: 'MP Lab', 1: 'MP Lab', 2: 'MP Lab', 4: '-'}, 3: {2: 'AUP/OR', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {0: 'CD | RDBMS Lab', 1: 'CD | RDBMS Lab', 2: 'CD | RDBMS Lab', 4: '-'}, 5: {3: 'AUP/OR'}}, 'D': {0: {0: 'MP Lab', 1: 'MP Lab', 2: 'MP Lab', 4: '-'}, 1: {0: 'CD | RDBMS Lab', 1: 'CD | RDBMS Lab', 2: 'CD | RDBMS Lab', 3: 'AUP/OR', 4: '-'}, 2: {4: '-', 5: 'MP Lab', 6: 'MP Lab', 7: 'MP Lab'}, 3: {2: 'AUP/OR', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-', 5: 'CD | RDBMS Lab', 6: 'CD | RDBMS Lab', 7: 'CD | RDBMS Lab'}, 5: {3: 'AUP/OR'}}, 'C': {0: {4: '-'}, 1: {0: 'CD | RDBMS Lab', 1: 'CD | RDBMS Lab', 2: 'CD | RDBMS Lab', 3: 'AUP/OR', 4: '-'}, 2: {4: '-', 5: 'CD | RDBMS Lab', 6: 'CD | RDBMS Lab', 7: 'CD | RDBMS Lab'}, 3: {2: 'AUP/OR', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {0: 'MP Lab', 1: 'MP Lab', 2: 'MP Lab', 4: '-'}, 5: {0: 'MP Lab', 1: 'MP Lab', 2: 'MP Lab', 3: 'AUP/OR'}}}}
+INFO:tt_main:III A 0 0
+INFO:tt_main:III A 0 1
+INFO:tt_main:III A 0 2
+INFO:tt_main:III A 0 3
+INFO:tt_main:III A 0 4
+INFO:tt_main:III A 1 4
+INFO:tt_main:III A 1 5
+INFO:tt_main:III A 2 4
+INFO:tt_main:III A 2 5
+INFO:tt_main:III A 2 6
+INFO:tt_main:III A 2 7
+INFO:tt_main:III A 3 3
+INFO:tt_main:III A 3 4
+INFO:tt_main:III A 3 5
+INFO:tt_main:III A 3 6
+INFO:tt_main:III A 3 7
+INFO:tt_main:III A 4 4
+INFO:tt_main:III A 5 2
+INFO:tt_main:III A 5 3
+INFO:tt_main:Slot type: Computer Organization and Design - CO
+INFO:tt_main:Slot type: Data Structures | Digital System Design Lab - DS | DSD Lab
+INFO:tt_main:Slot type: Generating Functions and Transform Techniques Combinatorics - Maths
+INFO:tt_main:Slot type: Discrete Mathematical Stuctures & Graph Theory - DMS
+INFO:tt_main:Slot type: Data Structures - DS
+INFO:tt_main:Slot type: Data Communication - DC
+INFO:tt_main:Slot type: Computer Organization and Design - CO
+INFO:tt_main:Section C
+INFO:tt_main:Displaying subject constraints for: III C
+INFO:tt_main:Subject constraints: {0: {4: '-', 5: 'Maths'}, 1: {3: 'Maths', 4: '-', 5: 'DS | DSD Lab', 6: 'DS | DSD Lab', 7: 'DS | DSD Lab'}, 2: {1: 'DS | DSD Lab', 2: 'DS | DSD Lab', 3: 'DS | DSD Lab', 4: '-', 5: 'Maths'}, 3: {1: 'Maths', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {3: '-'}}
+INFO:tt_main:III C 0 4
+INFO:tt_main:III C 0 5
+INFO:tt_main:III C 1 3
+INFO:tt_main:III C 1 4
+INFO:tt_main:III C 1 5
+INFO:tt_main:III C 1 6
+INFO:tt_main:III C 1 7
+INFO:tt_main:III C 2 1
+INFO:tt_main:III C 2 2
+INFO:tt_main:III C 2 3
+INFO:tt_main:III C 2 4
+INFO:tt_main:III C 2 5
+INFO:tt_main:III C 3 1
+INFO:tt_main:III C 3 4
+INFO:tt_main:III C 3 5
+INFO:tt_main:III C 3 6
+INFO:tt_main:III C 3 7
+INFO:tt_main:III C 4 4
+INFO:tt_main:III C 5 3
+INFO:tt_main:Section A
+INFO:tt_main:Displaying subject constraints for: III A
+INFO:tt_main:Subject constraints: {0: {0: 'Maths', 1: 'DS | DSD Lab', 2: 'DS | DSD Lab', 3: 'DS | DSD Lab', 4: '-'}, 1: {4: '-', 5: 'Maths'}, 2: {4: '-', 5: 'DS | DSD Lab', 6: 'DS | DSD Lab', 7: 'DS | DSD Lab'}, 3: {3: 'Maths', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {4: '-'}, 5: {2: 'Maths', 3: '-'}}
+INFO:tt_main:III A 0 0
+INFO:tt_main:III A 0 1
+INFO:tt_main:III A 0 2
+INFO:tt_main:III A 0 3
+INFO:tt_main:III A 0 4
+INFO:tt_main:III A 1 4
+INFO:tt_main:III A 1 5
+INFO:tt_main:III A 2 4
+INFO:tt_main:III A 2 5
+INFO:tt_main:III A 2 6
+INFO:tt_main:III A 2 7
+INFO:tt_main:III A 3 3
+INFO:tt_main:III A 3 4
+INFO:tt_main:III A 3 5
+INFO:tt_main:III A 3 6
+INFO:tt_main:III A 3 7
+INFO:tt_main:III A 4 4
+INFO:tt_main:III A 5 2
+INFO:tt_main:III A 5 3
+INFO:tt_main:Section B
+INFO:tt_main:Displaying subject constraints for: III B
+INFO:tt_main:Subject constraints: {0: {4: '-', 5: 'DS | DSD Lab', 6: 'DS | DSD Lab', 7: 'DS | DSD Lab'}, 1: {3: 'Maths', 4: '-'}, 2: {4: '-', 5: 'Maths'}, 3: {0: 'Maths', 4: '-', 5: '-', 6: '-', 7: '-'}, 4: {1: 'DS | DSD Lab', 2: 'DS | DSD Lab', 3: 'DS | DSD Lab', 4: '-'}, 5: {0: 'Maths', 3: '-'}}
+INFO:tt_main:III B 0 4
+INFO:tt_main:III B 0 5
+INFO:tt_main:III B 0 6
+INFO:tt_main:III B 0 7
+INFO:tt_main:III B 1 3
+INFO:tt_main:III B 1 4
+INFO:tt_main:III B 2 4
+INFO:tt_main:III B 2 5
+INFO:tt_main:III B 3 0
+INFO:tt_main:III B 3 4
+INFO:tt_main:III B 3 5
+INFO:tt_main:III B 3 6
+INFO:tt_main:III B 3 7
+INFO:tt_main:III B 4 1
+INFO:tt_main:III B 4 2
+INFO:tt_main:III B 4 3
+INFO:tt_main:III B 4 4
+INFO:tt_main:III B 5 0
+INFO:tt_main:III B 5 3
+DEBUG:tt_main:User has clicked on Exit/Finish/'X'
+DEBUG:tt_main:User clicked Yes
+DEBUG:tt_main:Quitting Program by user's choice, no errors

@@ -1,0 +1,230 @@
+[
+    "August",
+    2018,
+    "December",
+    2018,
+    "Computer Science & Engineering",
+    [
+        "faculty_class('Ajay H C', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Ajay N', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Apoorva S', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Archana N', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Bhararthi M', 'Dr.', 'Associate Professor')",
+        "faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Girish B G', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Jagadish N', 'Prof.', 'Assistant Professor')",
+        "faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Manjunath S', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Murthy S V N', 'Dr.', 'Associate Professor')",
+        "faculty_class('Narendra Babu C', 'Prof.', 'Professor')",
+        "faculty_class('Pampana', 'Prof.', 'Associate Professor')",
+        "faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Srinath G M', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor')",
+        "faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Swetha T', 'Prof.', 'Assistant Professor')",
+        "faculty_class('T.N Anitha', 'Dr.', 'Head of Department')",
+        "faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Vijay G R', 'Prof.', 'Associate Professor')",
+        "faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor')",
+        "faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')"
+    ],
+    {
+        "III": [],
+        "IV": [],
+        "V": [],
+        "VI": [
+            "subject('OS', 'OS', 5, False, '16')",
+            "subject('MC', 'MC', 5, False, '17')",
+            "subject('PAP', 'PAP', 5, False, '15')",
+            "subject('SS&OS', 'SOL', 6, True, '119')",
+            "subject('OR', 'OR', 4, False, '14')",
+            "subject('CNC', 'CNC', 5, False, '13')",
+            "subject('SS&CD', 'SS&CD', 4, False, '12')",
+            "subject('CGV', 'CGC', 6, True, '11')"
+        ],
+        "VII": [],
+        "VIII": [
+            "subject('Project ', 'PS', 5, False, '5')",
+            "subject('Software Testing', 'ST', 4, False, '123')",
+            "subject('CLouds', 'CGC', 4, False, '3')",
+            "subject('NMS', 'NMS', 4, False, '1234')",
+            "subject('Information', 'INS', 4, False, '4')",
+            "subject('Software Architecture', 'SA', 4, False, '1')",
+            "subject('Simulated Model', 'SMS', 4, False, '2')",
+            "subject('Technical ', 'TS', 5, False, '6')"
+        ]
+    },
+    {
+        "III": 0,
+        "IV": 0,
+        "V": 0,
+        "VI": 2,
+        "VII": 0,
+        "VIII": 2
+    },
+    {
+        "III": [],
+        "IV": [],
+        "V": [],
+        "VI": [
+            "A",
+            "B"
+        ],
+        "VII": [],
+        "VIII": [
+            "A",
+            "B"
+        ]
+    },
+    {
+        "III": {},
+        "IV": {},
+        "V": {},
+        "VI": {
+            "A": [
+                "SS&CD - SS&CD - Shrihari M R",
+                "PAP - PAP - Shashikanth T S",
+                "OR - OR - Girish B G",
+                "MC - MC - Rashmi K A",
+                "CGV - CGC - Sushmitha M",
+                "OS - OS - Bhararthi M",
+                "CNC - CNC - Harshavardhan",
+                "SS&OS - SOL - Swetha T"
+            ],
+            "B": [
+                "OS - OS - Diwakar K M",
+                "PAP - PAP - Shashikanth T S",
+                "SS&OS - SOL - Murthy S V N",
+                "OR - OR - Vinutha K",
+                "CNC - CNC - Apoorva S",
+                "SS&CD - SS&CD - Ajay N",
+                "CGV - CGC - Srinath G M"
+            ]
+        },
+        "VII": {},
+        "VIII": {
+            "A": [
+                "Software Testing - ST - Ajay H C",
+                "Project  - PS - Ajay N",
+                "Software Architecture - SA - Apoorva S",
+                "Simulated Model - SMS - Bhararthi M",
+                "Information - INS - Harshavardhan",
+                "Technical  - TS - Srinath G M",
+                "CLouds - CGC - Vinutha K",
+                "NMS - NMS - Venkatesh K M"
+            ],
+            "B": [
+                "Software Testing - ST - Ajay H C",
+                "Project  - PS - Ajay N",
+                "Information - INS - Rashmi K A",
+                "Technical  - TS - Srinath G M",
+                "Simulated Model - SMS - Srinivas Murthy H",
+                "CLouds - CGC - Sushmitha M",
+                "NMS - NMS - Venkatesh K M",
+                "Software Architecture - SA - Jagadish N"
+            ]
+        }
+    },
+    {
+        "Ajay H C": [
+            "Software Testing - ST - VIII A",
+            "Software Testing - ST - VIII B"
+        ],
+        "Ajay N": [
+            "Project  - PS - VIII B",
+            "Project  - PS - VIII A",
+            "SS&CD - SS&CD - VI B"
+        ],
+        "Apoorva S": [
+            "Software Architecture - SA - VIII A",
+            "CNC - CNC - VI B"
+        ],
+        "Archana N": [],
+        "Bhararthi M": [
+            "Simulated Model - SMS - VIII A",
+            "OS - OS - VI A"
+        ],
+        "Diwakar K M": [
+            "OS - OS - VI B"
+        ],
+        "Girish B G": [
+            "OR - OR - VI A"
+        ],
+        "Harshavardhan": [
+            "Information - INS - VIII A",
+            "CNC - CNC - VI A"
+        ],
+        "Jagadish N": [
+            "Software Architecture - SA - VIII B"
+        ],
+        "M. Seshaiah": [],
+        "Manjunath S": [],
+        "Murthy S V N": [
+            "SS&OS - SOL - VI B"
+        ],
+        "Narendra Babu C": [],
+        "Pampana": [],
+        "Pradeep Kumar": [],
+        "Rashmi K A": [
+            "Information - INS - VIII B",
+            "MC - MC - VI A"
+        ],
+        "Shashikanth T S": [
+            "PAP - PAP - VI A",
+            "PAP - PAP - VI B"
+        ],
+        "Shrihari M R": [
+            "SS&CD - SS&CD - VI A"
+        ],
+        "Srinath G M": [
+            "Technical  - TS - VIII A",
+            "Technical  - TS - VIII B",
+            "CGV - CGC - VI B"
+        ],
+        "Srinivas Murthy H": [
+            "Simulated Model - SMS - VIII B"
+        ],
+        "Sushmitha M": [
+            "CLouds - CGC - VIII B",
+            "CGV - CGC - VI A"
+        ],
+        "Swetha T": [
+            "SS&OS - SOL - VI A"
+        ],
+        "T.N Anitha": [],
+        "Venkatesh K M": [
+            "NMS - NMS - VIII A",
+            "NMS - NMS - VIII B"
+        ],
+        "Vijay G R": [],
+        "Vikas Reddy.S": [],
+        "Vinutha K": [
+            "CLouds - CGC - VIII A",
+            "OR - OR - VI B"
+        ]
+    },
+    {},
+    {},
+    {
+        "III": {},
+        "IV": {},
+        "V": {},
+        "VI": {},
+        "VII": {},
+        "VIII": {
+            "Elective 1": [
+                "subject('CLouds', 'CGC', 4, False, '3')",
+                "subject('Information', 'INS', 4, False, '4')"
+            ],
+            "Elective 2": [
+                "subject('CLouds', 'CGC', 4, False, '3')",
+                "subject('Information', 'INS', 4, False, '4')"
+            ]
+        }
+    }
+]

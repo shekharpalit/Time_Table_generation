@@ -1,0 +1,100 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                             BISHAL BUDHATHOKI                                                    *
+INFO:tt_main:*                                             BIPLOVE SHAKYA                                                       *
+INFO:tt_main:*                                             SHEKHAR PALIT                                                        *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   S.J.C. Institute of Technology, SJCIT                                          *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+DEBUG:tt_main:Initializing and setting up fifth window
+DEBUG:tt_main:Year Window
+INFO:tt_main:Academic year: August 2018 December 2018 Department: Computer Science & Engineering
+DEBUG:tt_main:First Window
+INFO:tt_main:Input type: Faculty
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. GIRISH BG Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+INFO:tt_main:Input type: Subjects
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:III 0
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:III 1
+INFO:tt_main:III 2
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :ADE ADE 5 True
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '15CS33')]), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+INFO:tt_main:VII 0
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:VII 1
+INFO:tt_main:VII 2
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :C#  C# 4 False
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '15CS33')]), ('IV', []), ('V', []), ('VI', []), ('VII', [subject('C# ', 'C#', 4, False, '10CS761')]), ('VIII', [])])
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {'A': [], 'B': []}), ('IV', {}), ('V', {}), ('VI', {}), ('VII', {'A': [], 'B': []}), ('VIII', {})])
+INFO:tt_main:Displaying assigned subjects for GIRISH BG
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for III A
+INFO:tt_main:Subject assignments: []
+INFO:tt_main:Displaying assigned subjects for III A
+INFO:tt_main:Subject assignments: ['ADE - ADE - GIRISH BG']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for VII A
+INFO:tt_main:Subject assignments: []
+INFO:tt_main:Displaying assigned subjects for VII B
+INFO:tt_main:Subject assignments: []
+INFO:tt_main:Displaying assigned subjects for VII B
+INFO:tt_main:Subject assignments: ['C#  - C# - GIRISH BG']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+DEBUG:tt_main:Third Window
+DEBUG:tt_main:Fourth Window
+DEBUG:tt_main:Third Window
+DEBUG:tt_main:Fourth Window
+DEBUG:tt_main:Displaying faculty constraints for GIRISH BG
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:2 3
+INFO:tt_main:Faculty constraints: {'GIRISH BG': {2: {3: '-'}}}
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Fifth Window
+DEBUG:tt_main:Generating timetable...
+Scheduling slots...
+Alotting subjects to slots...
+INFO:tt_algo:...generating...
+INFO:tt_algo:
+ERROR:tt_main:Logging an uncaught exception
+Traceback (most recent call last):
+  File "D:/Projects/timetable-master/timetable-master/ui_controller.py", line 1433, in generate_event
+    self.timetables, self.faculty_timetables, dayclash = tt.produce_timetable(self, loc)
+  File "D:\Projects\timetable-master\timetable-master\tt.py", line 329, in produce_timetable
+    generate(timetables[sem][section], subjects[sem][section], faculty, location)
+  File "D:\Projects\timetable-master\timetable-master\tt.py", line 76, in generate
+    if faculty[subject[2]].final[day][time] != True and getnumhours(tt, subject, day)[0] < 1: # if teacher slot is not finalized and subject isnt already there that day
+TypeError: unhashable type: 'list'

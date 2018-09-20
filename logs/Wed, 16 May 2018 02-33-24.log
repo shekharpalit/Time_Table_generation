@@ -1,0 +1,150 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                             BISHAL BUDHATHOKI                                                    *
+INFO:tt_main:*                                             BIPLOVE SHAKYA                                                       *
+INFO:tt_main:*                                             SHEKHAR PALIT                                                        *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   S.J.C. Institute of Technology, SJCIT                                          *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+DEBUG:tt_main:Initializing and setting up fifth window
+DEBUG:tt_main:Year Window
+INFO:tt_main:Academic year: August 2018 December 2018 Department: Computer Science & Engineering
+DEBUG:tt_main:First Window
+INFO:tt_main:Input type: Faculty
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:File Menu option clicked: Load
+DEBUG:tt_main:Load confirmed
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/eight
+INFO:tt_main:Loading from binary file
+INFO:tt_main:Subjects assigned to faculty: {'Ajay N': ['Project Seminar - PS - VIII A'], 'Apoorva': ['Software Architecture - SA - VIII A'], 'Bharathi M': ['System Modelling - SMS - VIII A'], 'Girish B G': ['Technical Seminar - TS - VIII A'], 'Harshavardhan Dodamane': ['Information And NS - INS - VIII A'], 'Vinutha K': ['Clouds,Grids,CLusters - CGC - VIII A']}
+INFO:tt_main:Faculty fixed slots: {}
+DEBUG:tt_main:Success. Loaded all saved data from D:/Projects/timetable-master/timetable-master/Sample Inputs/eight
+DEBUG:tt_main:Reset all windows and displaying 1st window
+DEBUG:tt_main:Resetting First Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {}), ('IV', {}), ('V', {}), ('VI', {}), ('VII', {}), ('VIII', {'A': ['Project Seminar - PS - Ajay N', 'System Modelling - SMS - Bharathi M', 'Software Architecture - SA - Apoorva', 'Technical Seminar - TS - Girish B G', 'Information And NS - INS - Harshavardhan Dodamane', 'Clouds,Grids,CLusters - CGC - Vinutha K']})])
+DEBUG:tt_main:Resetting Third Window
+DEBUG:tt_main:Resetting Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Resetting Elective Window
+DEBUG:tt_main:Resetting Year Window
+INFO:tt_main:Input type: Faculty
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {}), ('IV', {}), ('V', {}), ('VI', {}), ('VII', {}), ('VIII', {'A': ['Project Seminar - PS - Ajay N', 'System Modelling - SMS - Bharathi M', 'Software Architecture - SA - Apoorva', 'Technical Seminar - TS - Girish B G', 'Information And NS - INS - Harshavardhan Dodamane', 'Clouds,Grids,CLusters - CGC - Vinutha K']})])
+DEBUG:tt_main:Third Window
+DEBUG:tt_main:Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Fifth Window
+DEBUG:tt_main:Generating timetable...
+Scheduling slots...
+Alotting subjects to slots...
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               SA                   SA                   SA                   SMS                  -                    INS                  INS                  INS                 
+INFO:tt_algo:tuesday              SMS                  SMS                  SMS                  CGC                  -                    SA                   SA                   INS                 
+INFO:tt_algo:wednesday            CGC                  CGC                  CGC                  SA                   -                    INS                  INS                  CGC                 
+INFO:tt_algo:thursday             PS                   PS                   PS                   PS                   -                    TS                   TS                   TS                  
+INFO:tt_algo:friday               TS                   TS                   TS                   PS                   -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:...generating...
+INFO:tt_algo:
+INFO:tt_algo:no free slots for VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:no free slots for VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:no free slots for VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:no free slots for VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:no free slots for VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:no free slots for VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:no free slots for VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:no free slots for VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:no free slots for VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:no free slots for VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:no free slots for VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:no free slots for VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:no free slots for VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:no free slots for VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:no free slots for VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:no free slots for VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:no free slots for VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:no free slots for VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:no free slots for VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:no free slots for VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:no free slots for VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:no free slots for VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:no free slots for VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:no free slots for VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:no free slots for VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:no free slots for VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:no free slots for VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               SA                   SA                   SA                   SMS                  -                    INS                  INS                  INS                 
+INFO:tt_algo:tuesday              SMS                  SMS                  SMS                  CGC                  -                    SA                   SA                   INS                 
+INFO:tt_algo:wednesday            CGC                  CGC                  CGC                  SA                   -                    INS                  INS                  CGC                 
+INFO:tt_algo:thursday             PS                   PS                   PS                   PS                   -                    TS                   TS                   TS                  
+INFO:tt_algo:friday               TS                   TS                   TS                   PS                   -                    SMS                  SA                   INS                 
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:...adjusting clashes...
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               SA                   SA                   SA                   SMS                  -                    INS                  INS                  INS                 
+INFO:tt_algo:tuesday              SMS                  SMS                  SMS                  CGC                  -                    SA                   SA                   INS                 
+INFO:tt_algo:wednesday            CGC                  CGC                  CGC                  SA                   -                    INS                  INS                  CGC                 
+INFO:tt_algo:thursday             PS                   PS                   PS                   PS                   -                    TS                   TS                   TS                  
+INFO:tt_algo:friday               TS                   TS                   TS                   PS                   -                    SA                   INS                  SA                  
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:27
+DEBUG:tt_main:Displaying timetable for  
+DEBUG:tt_main:Results display dialog
+INFO:tt_main:Students
+DEBUG:tt_main:Populating section combobox for VIII semester
+DEBUG:tt_main:Displaying timetable for VIII A
+DEBUG:tt_main:User has clicked on Exit/Finish/'X'
+DEBUG:tt_main:User clicked Yes
+DEBUG:tt_main:Quitting Program by user's choice, no errors

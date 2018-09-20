@@ -1,0 +1,309 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                             BISHAL BUDHATHOKI                                                    *
+INFO:tt_main:*                                             BIPLOVE SHAKYA                                                       *
+INFO:tt_main:*                                             SHEKHAR PALIT                                                        *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   S.J.C. Institute of Technology, SJCIT                                          *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+DEBUG:tt_main:Initializing and setting up fifth window
+DEBUG:tt_main:Year Window
+INFO:tt_main:Academic year: August 2018 December 2018 Department: Computer Science & Engineering
+DEBUG:tt_main:First Window
+INFO:tt_main:Input type: Faculty
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. GIRISH BG Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. HARSHVARDHAN  Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. JAGADISH  Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. DIVAKAR Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. AJAY N Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. SUDHAKAR Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. APOORVA Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. AJAY HC Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. SHRIHARI Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor'), faculty_class('SHRIHARI', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+INFO:tt_main:Input type: Subjects
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:III 0
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:III 1
+INFO:tt_main:III 2
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :ADE ADE 5 True
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor'), faculty_class('SHRIHARI', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '1')]), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :DMS DMS 5 False
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor'), faculty_class('SHRIHARI', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '1'), subject('DMS', 'DMS', 5, False, '2')]), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :DAA DAA 5 True
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor'), faculty_class('SHRIHARI', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '1'), subject('DMS', 'DMS', 5, False, '2'), subject('DAA', 'DAA', 5, True, '3')]), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :MATHS MA 5 False
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor'), faculty_class('SHRIHARI', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '1'), subject('DMS', 'DMS', 5, False, '2'), subject('DAA', 'DAA', 5, True, '3'), subject('MATHS', 'MA', 5, False, '4')]), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :JAVA JAVA 5 False
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor'), faculty_class('SHRIHARI', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '1'), subject('DMS', 'DMS', 5, False, '2'), subject('DAA', 'DAA', 5, True, '3'), subject('MATHS', 'MA', 5, False, '4'), subject('JAVA', 'JAVA', 5, False, '5')]), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :DSC DSC 5 False
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor'), faculty_class('SHRIHARI', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '1'), subject('DMS', 'DMS', 5, False, '2'), subject('DAA', 'DAA', 5, True, '3'), subject('MATHS', 'MA', 5, False, '4'), subject('JAVA', 'JAVA', 5, False, '5'), subject('DSC', 'DSC', 5, False, '6')]), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+INFO:tt_main:VII 0
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:VII 1
+INFO:tt_main:VII 2
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :c# C# 4 False
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor'), faculty_class('SHRIHARI', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '1'), subject('DMS', 'DMS', 5, False, '2'), subject('DAA', 'DAA', 5, True, '3'), subject('MATHS', 'MA', 5, False, '4'), subject('JAVA', 'JAVA', 5, False, '5'), subject('DSC', 'DSC', 5, False, '6')]), ('IV', []), ('V', []), ('VI', []), ('VII', [subject('c#', 'C#', 4, False, '1')]), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :CN CN 4 False
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor'), faculty_class('SHRIHARI', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '1'), subject('DMS', 'DMS', 5, False, '2'), subject('DAA', 'DAA', 5, True, '3'), subject('MATHS', 'MA', 5, False, '4'), subject('JAVA', 'JAVA', 5, False, '5'), subject('DSC', 'DSC', 5, False, '6')]), ('IV', []), ('V', []), ('VI', []), ('VII', [subject('c#', 'C#', 4, False, '1'), subject('CN', 'CN', 4, False, '2')]), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :AA AA 4 False
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor'), faculty_class('SHRIHARI', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '1'), subject('DMS', 'DMS', 5, False, '2'), subject('DAA', 'DAA', 5, True, '3'), subject('MATHS', 'MA', 5, False, '4'), subject('JAVA', 'JAVA', 5, False, '5'), subject('DSC', 'DSC', 5, False, '6')]), ('IV', []), ('V', []), ('VI', []), ('VII', [subject('c#', 'C#', 4, False, '1'), subject('CN', 'CN', 4, False, '2'), subject('AA', 'AA', 4, False, '3')]), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :OOMD OOMD 4 False
+INFO:tt_main:Faculty list: [faculty_class('GIRISH BG', 'Prof.', 'Assistant Professor'), faculty_class('HARSHVARDHAN', 'Prof.', 'Assistant Professor'), faculty_class('JAGADISH', 'Prof.', 'Assistant Professor'), faculty_class('DIVAKAR', 'Prof.', 'Assistant Professor'), faculty_class('AJAY N', 'Prof.', 'Assistant Professor'), faculty_class('SUDHAKAR', 'Prof.', 'Assistant Professor'), faculty_class('APOORVA', 'Prof.', 'Assistant Professor'), faculty_class('AJAY HC', 'Prof.', 'Assistant Professor'), faculty_class('SHRIHARI', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', [subject('ADE', 'ADE', 5, True, '1'), subject('DMS', 'DMS', 5, False, '2'), subject('DAA', 'DAA', 5, True, '3'), subject('MATHS', 'MA', 5, False, '4'), subject('JAVA', 'JAVA', 5, False, '5'), subject('DSC', 'DSC', 5, False, '6')]), ('IV', []), ('V', []), ('VI', []), ('VII', [subject('c#', 'C#', 4, False, '1'), subject('CN', 'CN', 4, False, '2'), subject('AA', 'AA', 4, False, '3'), subject('OOMD', 'OOMD', 4, False, '4')]), ('VIII', [])])
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {'A': [], 'B': []}), ('IV', {}), ('V', {}), ('VI', {}), ('VII', {'A': [], 'B': []}), ('VIII', {})])
+INFO:tt_main:Displaying assigned subjects for AJAY HC
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for III A
+INFO:tt_main:Subject assignments: []
+INFO:tt_main:Displaying assigned subjects for GIRISH BG
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for III A
+INFO:tt_main:Subject assignments: ['ADE - ADE - GIRISH BG']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for HARSHVARDHAN
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for III A
+INFO:tt_main:Subject assignments: ['ADE - ADE - GIRISH BG', 'DMS - DMS - HARSHVARDHAN']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for JAGADISH
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for III A
+INFO:tt_main:Subject assignments: ['ADE - ADE - GIRISH BG', 'DMS - DMS - HARSHVARDHAN', 'DSC - DSC - JAGADISH']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for DIVAKAR
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for III B
+INFO:tt_main:Subject assignments: []
+INFO:tt_main:Displaying assigned subjects for III B
+INFO:tt_main:Subject assignments: ['DMS - DMS - DIVAKAR']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for AJAY N
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for III A
+INFO:tt_main:Subject assignments: ['ADE - ADE - GIRISH BG', 'DMS - DMS - HARSHVARDHAN', 'DSC - DSC - JAGADISH']
+INFO:tt_main:Displaying assigned subjects for III A
+INFO:tt_main:Subject assignments: ['ADE - ADE - GIRISH BG', 'DMS - DMS - HARSHVARDHAN', 'DSC - DSC - JAGADISH', 'DAA - DAA - AJAY N']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for SUDHAKAR
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for III A
+INFO:tt_main:Subject assignments: ['ADE - ADE - GIRISH BG', 'DMS - DMS - HARSHVARDHAN', 'DSC - DSC - JAGADISH', 'DAA - DAA - AJAY N', 'MATHS - MA - SUDHAKAR']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for APOORVA
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for III A
+INFO:tt_main:Subject assignments: ['ADE - ADE - GIRISH BG', 'DMS - DMS - HARSHVARDHAN', 'DSC - DSC - JAGADISH', 'DAA - DAA - AJAY N', 'MATHS - MA - SUDHAKAR', 'JAVA - JAVA - APOORVA']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for AJAY HC
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for AJAY HC
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for AJAY N
+INFO:tt_main:Faculty subject allotments: ['DAA - DAA - III A']
+INFO:tt_main:Displaying assigned subjects for VII A
+INFO:tt_main:Subject assignments: []
+INFO:tt_main:Displaying assigned subjects for GIRISH BG
+INFO:tt_main:Faculty subject allotments: ['ADE - ADE - III A']
+INFO:tt_main:Displaying assigned subjects for VII A
+INFO:tt_main:Subject assignments: ['c# - C# - GIRISH BG']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for GIRISH BG
+INFO:tt_main:Faculty subject allotments: ['ADE - ADE - III A', 'c# - C# - VII A']
+INFO:tt_main:Displaying assigned subjects for HARSHVARDHAN
+INFO:tt_main:Faculty subject allotments: ['DMS - DMS - III A']
+INFO:tt_main:Displaying assigned subjects for VII A
+INFO:tt_main:Subject assignments: ['c# - C# - GIRISH BG', 'CN - CN - HARSHVARDHAN']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for JAGADISH
+INFO:tt_main:Faculty subject allotments: ['DSC - DSC - III A']
+INFO:tt_main:Displaying assigned subjects for VII A
+INFO:tt_main:Subject assignments: ['c# - C# - GIRISH BG', 'CN - CN - HARSHVARDHAN', 'AA - AA - JAGADISH']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for AJAY N
+INFO:tt_main:Faculty subject allotments: ['DAA - DAA - III A']
+INFO:tt_main:Displaying assigned subjects for VII A
+INFO:tt_main:Subject assignments: ['c# - C# - GIRISH BG', 'CN - CN - HARSHVARDHAN', 'AA - AA - JAGADISH']
+INFO:tt_main:Displaying assigned subjects for VII A
+INFO:tt_main:Subject assignments: ['c# - C# - GIRISH BG', 'CN - CN - HARSHVARDHAN', 'AA - AA - JAGADISH', 'OOMD - OOMD - AJAY N']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+DEBUG:tt_main:Third Window
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}}
+INFO:tt_main:Semester: III
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 3
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {3: 'ADE'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 3
+INFO:tt_main:ADE exists
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {}}}}
+INFO:tt_main:Slot type: -
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {}, 0: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {}, 0: {4: '-'}, 1: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {4: '-'}, 0: {4: '-'}, 1: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {4: '-'}, 0: {4: '-'}, 1: {4: '-'}, 3: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {4: '-'}, 0: {4: '-'}, 1: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}}
+INFO:tt_main:Semester: VII
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {4: '-'}, 0: {4: '-'}, 1: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {4: '-'}, 0: {4: '-'}, 1: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}, 'VII': {'A': {0: {4: 'C#'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 4
+INFO:tt_main:C# exists
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {4: '-'}, 0: {4: '-'}, 1: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}, 'VII': {'A': {0: {}}}}
+INFO:tt_main:Slot type: -
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {4: '-'}, 0: {4: '-'}, 1: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}, 'VII': {'A': {0: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {4: '-'}, 0: {4: '-'}, 1: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}, 'VII': {'A': {0: {4: '-'}, 1: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {4: '-'}, 0: {4: '-'}, 1: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}, 'VII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {4: '-'}, 0: {4: '-'}, 1: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}, 'VII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 4
+INFO:tt_main:Subject constraints: {'': {'': {0: {4: ''}}}, 'III': {'A': {2: {4: '-'}, 0: {4: '-'}, 1: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}, 'VII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}}
+DEBUG:tt_main:Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Fifth Window
+DEBUG:tt_main:Generating timetable...
+Scheduling slots...
+Alotting subjects to slots...
+ERROR:tt_main:Logging an uncaught exception
+Traceback (most recent call last):
+  File "D:/Projects/timetable-master/timetable-master/ui_controller.py", line 1433, in generate_event
+    self.timetables, self.faculty_timetables, dayclash = tt.produce_timetable(self, loc)
+  File "D:\Projects\timetable-master\timetable-master\tt.py", line 314, in produce_timetable
+    sub = subjects_ref[sem][section][short]
+KeyError: ''

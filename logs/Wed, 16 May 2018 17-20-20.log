@@ -1,0 +1,585 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                             BISHAL BUDHATHOKI                                                    *
+INFO:tt_main:*                                             BIPLOVE SHAKYA                                                       *
+INFO:tt_main:*                                             SHEKHAR PALIT                                                        *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   S.J.C. Institute of Technology, SJCIT                                          *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+DEBUG:tt_main:Initializing and setting up fifth window
+DEBUG:tt_main:Year Window
+INFO:tt_main:Academic year: August 2018 December 2018 Department: Computer Science & Engineering
+DEBUG:tt_main:First Window
+INFO:tt_main:Input type: Faculty
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Dr. T.N Anitha Head of Department
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Dr. Bhararthi M Associate Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Srinivas Murthy H Associate Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Pampana Associate Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Vijay G R Associate Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Dr. Murthy S V N Associate Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Manjunath S Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. M. Seshaiah Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Diwakar K M Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Harshavardhan Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Girish B G Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Shrihari M R Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Ajay N Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Jagadish N Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Sushmitha M Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Srinath G M Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Pradeep Kumar Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Archana N Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Shashikanth T S Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Venkatesh K M Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Ajay H C Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Ajay H C', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Rashmi K A Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Apoorva S Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Vinutha K  Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Narendra Babu C Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Swetha T Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Prof. Vikas Reddy.S Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+INFO:tt_main:File Menu option clicked: Save As
+DEBUG:tt_main:Save file dialog
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/initial.json
+INFO:tt_main:Saving as json file
+DEBUG:tt_main:Success. Saved to D:/Projects/timetable-master/timetable-master/Sample Inputs/initial.json
+INFO:tt_main:File Menu option clicked: Load
+DEBUG:tt_main:Load confirmed
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/initial.json
+INFO:tt_main:Loading from json file
+DEBUG:tt_main:Success. Loaded all saved data from D:/Projects/timetable-master/timetable-master/Sample Inputs/initial.json
+DEBUG:tt_main:Reset all windows and displaying 1st window
+DEBUG:tt_main:Resetting First Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {}), ('IV', {}), ('V', {}), ('VI', {}), ('VII', {}), ('VIII', {})])
+DEBUG:tt_main:Resetting Third Window
+DEBUG:tt_main:Resetting Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Resetting Elective Window
+DEBUG:tt_main:Resetting Year Window
+INFO:tt_main:Input type: Faculty
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Input type: Subjects
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:VII 0
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:VI 1
+INFO:tt_main:VI 2
+INFO:tt_main:VIII 0
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:VIII 1
+INFO:tt_main:VIII 2
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :Software Architecture SA 4 False
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :Simulated Model SMS 4 False
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2')])])
+DEBUG:tt_main:Elective button first form
+INFO:tt_main:Elective Window
+DEBUG:tt_main:Resetting Elective Window
+INFO:tt_main:No of elective groups 1
+INFO:tt_main:No of elective groups 2
+DEBUG:tt_main:Add button elective form
+DEBUG:tt_main:Adding CLouds elective to VIII in Elective 1
+INFO:tt_main:Elective details(name, shortname, credits, lab) :CLouds CGC 4 False
+INFO:tt_main:Electives list: {'III': {}, 'IV': {}, 'V': {}, 'VI': {}, 'VII': {}, 'VIII': {'Elective 1': [subject('CLouds', 'CGC', 4, False, '3')]}}
+DEBUG:tt_main:Add button elective form
+DEBUG:tt_main:Adding Information elective to VIII in Elective 1
+INFO:tt_main:Elective details(name, shortname, credits, lab) :Information INS 4 False
+INFO:tt_main:Electives list: {'III': {}, 'IV': {}, 'V': {}, 'VI': {}, 'VII': {}, 'VIII': {'Elective 1': [subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4')]}}
+DEBUG:tt_main:Elective button first form
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :Project  PS 5 False
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4'), subject('Project ', 'PS', 5, False, '5')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :Technical  TS 5 False
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4'), subject('Project ', 'PS', 5, False, '5'), subject('Technical ', 'TS', 5, False, '6')])])
+INFO:tt_main:III 0
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:VI 2
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :CGV CGC 4 True
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('CGV', 'CGC', 4, True, '11')]), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4'), subject('Project ', 'PS', 5, False, '5'), subject('Technical ', 'TS', 5, False, '6')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :SS&CD SS&CD 4 False
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('CGV', 'CGC', 4, True, '11'), subject('SS&CD', 'SS&CD', 4, False, '12')]), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4'), subject('Project ', 'PS', 5, False, '5'), subject('Technical ', 'TS', 5, False, '6')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :CNC CNC 5 False
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('CGV', 'CGC', 4, True, '11'), subject('SS&CD', 'SS&CD', 4, False, '12'), subject('CNC', 'CNC', 5, False, '13')]), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4'), subject('Project ', 'PS', 5, False, '5'), subject('Technical ', 'TS', 5, False, '6')])])
+INFO:tt_main:File Menu option clicked: Clear All
+DEBUG:tt_main:Clear All cancelled
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :OR OR 4 False
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('CGV', 'CGC', 4, True, '11'), subject('SS&CD', 'SS&CD', 4, False, '12'), subject('CNC', 'CNC', 5, False, '13'), subject('OR', 'OR', 4, False, '14')]), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4'), subject('Project ', 'PS', 5, False, '5'), subject('Technical ', 'TS', 5, False, '6')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :PAP PAP 5 False
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('CGV', 'CGC', 4, True, '11'), subject('SS&CD', 'SS&CD', 4, False, '12'), subject('CNC', 'CNC', 5, False, '13'), subject('OR', 'OR', 4, False, '14'), subject('PAP', 'PAP', 5, False, '15')]), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4'), subject('Project ', 'PS', 5, False, '5'), subject('Technical ', 'TS', 5, False, '6')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :OS OS 5 False
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('CGV', 'CGC', 4, True, '11'), subject('SS&CD', 'SS&CD', 4, False, '12'), subject('CNC', 'CNC', 5, False, '13'), subject('OR', 'OR', 4, False, '14'), subject('PAP', 'PAP', 5, False, '15'), subject('OS', 'OS', 5, False, '16')]), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4'), subject('Project ', 'PS', 5, False, '5'), subject('Technical ', 'TS', 5, False, '6')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :SS & OS SOL 6 True
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('CGV', 'CGC', 4, True, '11'), subject('SS&CD', 'SS&CD', 4, False, '12'), subject('CNC', 'CNC', 5, False, '13'), subject('OR', 'OR', 4, False, '14'), subject('PAP', 'PAP', 5, False, '15'), subject('OS', 'OS', 5, False, '16'), subject('SS & OS', 'SOL', 6, True, '17')]), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4'), subject('Project ', 'PS', 5, False, '5'), subject('Technical ', 'TS', 5, False, '6')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Editing selected item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :CGV CGC 6 True
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('CGV', 'CGC', 6, True, '11'), subject('SS&CD', 'SS&CD', 4, False, '12'), subject('CNC', 'CNC', 5, False, '13'), subject('OR', 'OR', 4, False, '14'), subject('PAP', 'PAP', 5, False, '15'), subject('OS', 'OS', 5, False, '16'), subject('SS & OS', 'SOL', 6, True, '17')]), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4'), subject('Project ', 'PS', 5, False, '5'), subject('Technical ', 'TS', 5, False, '6')])])
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Editing selected item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :MC SOL 5 False
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('CGV', 'CGC', 6, True, '11'), subject('SS&CD', 'SS&CD', 4, False, '12'), subject('CNC', 'CNC', 5, False, '13'), subject('OR', 'OR', 4, False, '14'), subject('PAP', 'PAP', 5, False, '15'), subject('OS', 'OS', 5, False, '16'), subject('MC', 'SOL', 5, False, '17')]), ('VII', []), ('VIII', [subject('Software Architecture', 'SA', 4, False, '1'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('CLouds', 'CGC', 4, False, '3'), subject('Information', 'INS', 4, False, '4'), subject('Project ', 'PS', 5, False, '5'), subject('Technical ', 'TS', 5, False, '6')])])
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {}), ('IV', {}), ('V', {}), ('VI', {'A': [], 'B': []}), ('VII', {}), ('VIII', {'A': [], 'B': []})])
+DEBUG:tt_main:First Window
+INFO:tt_main:File Menu option clicked: Save As
+DEBUG:tt_main:Save file dialog
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/initial.json
+INFO:tt_main:Saving as json file
+DEBUG:tt_main:Success. Saved to D:/Projects/timetable-master/timetable-master/Sample Inputs/initial.json
+INFO:tt_main:File Menu option clicked: Load
+DEBUG:tt_main:Load confirmed
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/initial.json
+INFO:tt_main:Loading from json file
+DEBUG:tt_main:Success. Loaded all saved data from D:/Projects/timetable-master/timetable-master/Sample Inputs/initial.json
+DEBUG:tt_main:Reset all windows and displaying 1st window
+DEBUG:tt_main:Resetting First Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', OrderedDict()), ('IV', OrderedDict()), ('V', OrderedDict()), ('VI', OrderedDict([('A', []), ('B', [])])), ('VII', OrderedDict()), ('VIII', OrderedDict([('A', []), ('B', [])]))])
+DEBUG:tt_main:Resetting Third Window
+DEBUG:tt_main:Resetting Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Resetting Elective Window
+INFO:tt_main:No of elective groups 0
+DEBUG:tt_main:Resetting Year Window
+INFO:tt_main:Input type: Subjects
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Input type: Faculty
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Input type: Subjects
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :SS&OS SOL 6 True
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('PAP', 'PAP', 5, False, '15'), subject('CGV', 'CGC', 6, True, '11'), subject('MC', 'SOL', 5, False, '17'), subject('CNC', 'CNC', 5, False, '13'), subject('SS&CD', 'SS&CD', 4, False, '12'), subject('OR', 'OR', 4, False, '14'), subject('OS', 'OS', 5, False, '16'), subject('SS&OS', 'SOL', 6, True, '119')]), ('VII', []), ('VIII', [subject('CLouds', 'CGC', 4, False, '3'), subject('Software Architecture', 'SA', 4, False, '1'), subject('Information', 'INS', 4, False, '4'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('Technical ', 'TS', 5, False, '6'), subject('Project ', 'PS', 5, False, '5')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Editing selected item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :MC MC 5 False
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('PAP', 'PAP', 5, False, '15'), subject('CGV', 'CGC', 6, True, '11'), subject('MC', 'MC', 5, False, '17'), subject('CNC', 'CNC', 5, False, '13'), subject('SS&CD', 'SS&CD', 4, False, '12'), subject('OR', 'OR', 4, False, '14'), subject('OS', 'OS', 5, False, '16'), subject('SS&OS', 'SOL', 6, True, '119')]), ('VII', []), ('VIII', [subject('CLouds', 'CGC', 4, False, '3'), subject('Software Architecture', 'SA', 4, False, '1'), subject('Information', 'INS', 4, False, '4'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('Technical ', 'TS', 5, False, '6'), subject('Project ', 'PS', 5, False, '5')])])
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', OrderedDict()), ('IV', OrderedDict()), ('V', OrderedDict()), ('VI', OrderedDict([('A', []), ('B', [])])), ('VII', OrderedDict()), ('VIII', OrderedDict([('A', []), ('B', [])]))])
+INFO:tt_main:Displaying assigned subjects for Ajay H C
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for Ajay H C
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: []
+DEBUG:tt_main:First Window
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :Software Testing ST 4 False
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('PAP', 'PAP', 5, False, '15'), subject('CGV', 'CGC', 6, True, '11'), subject('MC', 'MC', 5, False, '17'), subject('CNC', 'CNC', 5, False, '13'), subject('SS&CD', 'SS&CD', 4, False, '12'), subject('OR', 'OR', 4, False, '14'), subject('OS', 'OS', 5, False, '16'), subject('SS&OS', 'SOL', 6, True, '119')]), ('VII', []), ('VIII', [subject('CLouds', 'CGC', 4, False, '3'), subject('Software Architecture', 'SA', 4, False, '1'), subject('Information', 'INS', 4, False, '4'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('Technical ', 'TS', 5, False, '6'), subject('Project ', 'PS', 5, False, '5'), subject('Software Testing', 'ST', 4, False, '123')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :NMS NMS 4 False
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('PAP', 'PAP', 5, False, '15'), subject('CGV', 'CGC', 6, True, '11'), subject('MC', 'MC', 5, False, '17'), subject('CNC', 'CNC', 5, False, '13'), subject('SS&CD', 'SS&CD', 4, False, '12'), subject('OR', 'OR', 4, False, '14'), subject('OS', 'OS', 5, False, '16'), subject('SS&OS', 'SOL', 6, True, '119')]), ('VII', []), ('VIII', [subject('CLouds', 'CGC', 4, False, '3'), subject('Software Architecture', 'SA', 4, False, '1'), subject('Information', 'INS', 4, False, '4'), subject('Simulated Model', 'SMS', 4, False, '2'), subject('Technical ', 'TS', 5, False, '6'), subject('Project ', 'PS', 5, False, '5'), subject('Software Testing', 'ST', 4, False, '123'), subject('NMS', 'NMS', 4, False, '1234')])])
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', OrderedDict()), ('IV', OrderedDict()), ('V', OrderedDict()), ('VI', OrderedDict([('A', []), ('B', [])])), ('VII', OrderedDict()), ('VIII', OrderedDict([('A', []), ('B', [])]))])
+INFO:tt_main:File Menu option clicked: Save As
+DEBUG:tt_main:Save file dialog
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/initial.json
+INFO:tt_main:Saving as json file
+DEBUG:tt_main:Success. Saved to D:/Projects/timetable-master/timetable-master/Sample Inputs/initial.json
+INFO:tt_main:Displaying assigned subjects for Ajay H C
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: []
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C']
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C']
+INFO:tt_main:Displaying assigned subjects for Ajay N
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C']
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C']
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Apoorva S
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N']
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Apoorva S']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Bhararthi M
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Apoorva S', 'Simulated Model - SMS - Bhararthi M']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Harshavardhan
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Apoorva S', 'Simulated Model - SMS - Bhararthi M', 'Information - INS - Harshavardhan']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Jagadish N
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N']
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Jagadish N']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Rashmi K A
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Jagadish N', 'Information - INS - Rashmi K A']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Srinath G M
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Jagadish N', 'Information - INS - Rashmi K A']
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Apoorva S', 'Simulated Model - SMS - Bhararthi M', 'Information - INS - Harshavardhan']
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Apoorva S', 'Simulated Model - SMS - Bhararthi M', 'Information - INS - Harshavardhan', 'Technical  - TS - Srinath G M']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Jagadish N', 'Information - INS - Rashmi K A']
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Jagadish N', 'Information - INS - Rashmi K A', 'Technical  - TS - Srinath G M']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Sushmitha M
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Jagadish N', 'Information - INS - Rashmi K A', 'Technical  - TS - Srinath G M', 'CLouds - CGC - Sushmitha M']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Venkatesh K M
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Apoorva S', 'Simulated Model - SMS - Bhararthi M', 'Information - INS - Harshavardhan', 'Technical  - TS - Srinath G M']
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Apoorva S', 'Simulated Model - SMS - Bhararthi M', 'Information - INS - Harshavardhan', 'Technical  - TS - Srinath G M', 'NMS - NMS - Venkatesh K M']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Jagadish N', 'Information - INS - Rashmi K A', 'Technical  - TS - Srinath G M', 'CLouds - CGC - Sushmitha M']
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Jagadish N', 'Information - INS - Rashmi K A', 'Technical  - TS - Srinath G M', 'CLouds - CGC - Sushmitha M', 'NMS - NMS - Venkatesh K M']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Vinutha K
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Apoorva S', 'Simulated Model - SMS - Bhararthi M', 'Information - INS - Harshavardhan', 'Technical  - TS - Srinath G M', 'NMS - NMS - Venkatesh K M']
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Apoorva S', 'Simulated Model - SMS - Bhararthi M', 'Information - INS - Harshavardhan', 'Technical  - TS - Srinath G M', 'NMS - NMS - Venkatesh K M', 'CLouds - CGC - Vinutha K']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Jagadish N', 'Information - INS - Rashmi K A', 'Technical  - TS - Srinath G M', 'CLouds - CGC - Sushmitha M', 'NMS - NMS - Venkatesh K M']
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Apoorva S', 'Simulated Model - SMS - Bhararthi M', 'Information - INS - Harshavardhan', 'Technical  - TS - Srinath G M', 'NMS - NMS - Venkatesh K M', 'CLouds - CGC - Vinutha K']
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Jagadish N', 'Information - INS - Rashmi K A', 'Technical  - TS - Srinath G M', 'CLouds - CGC - Sushmitha M', 'NMS - NMS - Venkatesh K M']
+INFO:tt_main:Displaying assigned subjects for Srinivas Murthy H
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII B
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Jagadish N', 'Information - INS - Rashmi K A', 'Technical  - TS - Srinath G M', 'CLouds - CGC - Sushmitha M', 'NMS - NMS - Venkatesh K M', 'Simulated Model - SMS - Srinivas Murthy H']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['Software Testing - ST - Ajay H C', 'Project  - PS - Ajay N', 'Software Architecture - SA - Apoorva S', 'Simulated Model - SMS - Bhararthi M', 'Information - INS - Harshavardhan', 'Technical  - TS - Srinath G M', 'NMS - NMS - Venkatesh K M', 'CLouds - CGC - Vinutha K']
+INFO:tt_main:Displaying assigned subjects for Harshavardhan
+INFO:tt_main:Faculty subject allotments: ['Information - INS - VIII A']
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: []
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan', 'SS&OS - SOL - Harshavardhan']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+DEBUG:tt_main:Warning! Select item to remove.
+DEBUG:tt_main:Subject-faculty assignment: [SS&OS - SOL - Harshavardhan] removed
+INFO:tt_main:Displaying assigned subjects for Sushmitha M
+INFO:tt_main:Faculty subject allotments: ['CLouds - CGC - VIII B']
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan', 'CGV - CGC - Sushmitha M']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Shrihari M R
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan', 'CGV - CGC - Sushmitha M', 'SS&CD - SS&CD - Shrihari M R']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Bhararthi M
+INFO:tt_main:Faculty subject allotments: ['Simulated Model - SMS - VIII A']
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan', 'CGV - CGC - Sushmitha M', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Girish B G
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan', 'CGV - CGC - Sushmitha M', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M', 'OR - OR - Girish B G']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Shashikanth T S
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan', 'CGV - CGC - Sushmitha M', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M', 'OR - OR - Girish B G', 'MC - MC - Shashikanth T S']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan', 'CGV - CGC - Sushmitha M', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M', 'OR - OR - Girish B G', 'MC - MC - Shashikanth T S', 'PAP - PAP - Shashikanth T S']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Rashmi K A
+INFO:tt_main:Faculty subject allotments: ['Information - INS - VIII B']
+INFO:tt_main:{'PAP': subject('PAP', 'PAP', 5, False, '15'), 'CGC': subject('CLouds', 'CGC', 4, False, '3'), 'SOL': subject('SS&OS', 'SOL', 6, True, '119'), 'CNC': subject('CNC', 'CNC', 5, False, '13'), 'SS&CD': subject('SS&CD', 'SS&CD', 4, False, '12'), 'OR': subject('OR', 'OR', 4, False, '14'), 'OS': subject('OS', 'OS', 5, False, '16'), 'SA': subject('Software Architecture', 'SA', 4, False, '1'), 'INS': subject('Information', 'INS', 4, False, '4'), 'SMS': subject('Simulated Model', 'SMS', 4, False, '2'), 'TS': subject('Technical ', 'TS', 5, False, '6'), 'PS': subject('Project ', 'PS', 5, False, '5'), 'ST': subject('Software Testing', 'ST', 4, False, '123'), 'NMS': subject('NMS', 'NMS', 4, False, '1234')}
+ERROR:tt_main:'MC'
+Traceback (most recent call last):
+  File "D:/Projects/timetable-master/timetable-master/ui_controller.py", line 1217, in assign_btn_event
+    if self.subs[x[1]].lab == False or faculty in teachers: # if theory subject or teacher already assigned to subject
+KeyError: 'MC'
+ERROR:tt_main:Logging an uncaught exception
+Traceback (most recent call last):
+  File "D:/Projects/timetable-master/timetable-master/ui_controller.py", line 1217, in assign_btn_event
+    if self.subs[x[1]].lab == False or faculty in teachers: # if theory subject or teacher already assigned to subject
+KeyError: 'MC'

@@ -1,0 +1,83 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                               Nihal Rao I                                                        *
+INFO:tt_main:*                                             Sanjan S Poojari                                                     *
+INFO:tt_main:*                                             Shishir Upadhya                                                      *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   NMAM Institute of Technology, Nitte                                            *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+DEBUG:tt_main:Initializing and setting up fifth window
+DEBUG:tt_main:Year Window
+INFO:tt_main:Academic year: February 2018 May 2018 Department: Computer Science & Engineering
+DEBUG:tt_main:First Window
+INFO:tt_main:Input type: Subjects
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:VII 0
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:VII 1
+INFO:tt_main:VII 2
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :web programming WP 1 True
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', [subject('web programming', 'WP', 1, True, '10cs74')]), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :fish f 1 False
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', [subject('web programming', 'WP', 1, True, '10cs74'), subject('fish', 'f', 1, False, '12')]), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :dish DP 1 False
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', [subject('web programming', 'WP', 1, True, '10cs74'), subject('fish', 'f', 1, False, '12'), subject('dish', 'DP', 1, False, '13')]), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :sad SD 1 False
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', [subject('web programming', 'WP', 1, True, '10cs74'), subject('fish', 'f', 1, False, '12'), subject('dish', 'DP', 1, False, '13'), subject('sad', 'SD', 1, False, '14')]), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :fat FT 1 False
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', [subject('web programming', 'WP', 1, True, '10cs74'), subject('fish', 'f', 1, False, '12'), subject('dish', 'DP', 1, False, '13'), subject('sad', 'SD', 1, False, '14'), subject('fat', 'FT', 1, False, '15')]), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :hat HT 1 True
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', [subject('web programming', 'WP', 1, True, '10cs74'), subject('fish', 'f', 1, False, '12'), subject('dish', 'DP', 1, False, '13'), subject('sad', 'SD', 1, False, '14'), subject('fat', 'FT', 1, False, '15'), subject('hat', 'HT', 1, True, '16')]), ('VIII', [])])
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {}), ('IV', {}), ('V', {}), ('VI', {}), ('VII', {'A': [], 'B': []}), ('VIII', {})])
+DEBUG:tt_main:Input-Please select a faculty member.
+DEBUG:tt_main:Warning! Select item to remove.
+DEBUG:tt_main:Warning! Select item to remove.
+DEBUG:tt_main:Warning! Select item to remove.
+DEBUG:tt_main:Warning! Select item to remove.
+DEBUG:tt_main:First Window
+DEBUG:tt_main:User has clicked on Exit/Finish/'X'
+DEBUG:tt_main:Exit Cancelled
+DEBUG:tt_main:User has clicked on Exit/Finish/'X'
+DEBUG:tt_main:User clicked Yes
+DEBUG:tt_main:Quitting Program by user's choice, no errors

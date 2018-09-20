@@ -1,0 +1,36 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                               Nihal Rao I                                                        *
+INFO:tt_main:*                                             Sanjan S Poojari                                                     *
+INFO:tt_main:*                                             Shishir Upadhya                                                      *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   NMAM Institute of Technology, Nitte                                            *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+ERROR:tt_main:Logging an uncaught exception
+Traceback (most recent call last):
+  File "D:/Projects/timetable-master/timetable-master/ui_controller.py", line 2333, in <module>
+    main = ParentWindow()
+  File "D:/Projects/timetable-master/timetable-master/ui_controller.py", line 124, in __init__
+    self.setup_fourth_window()
+  File "D:/Projects/timetable-master/timetable-master/ui_controller.py", line 359, in setup_fourth_window
+    self.ui4.setupUi(self.FourthWindow)
+  File "D:\Projects\timetable-master\timetable-master\window4.py", line 176, in setupUi
+    self.retranslateUi(window4)
+  File "D:\Projects\timetable-master\timetable-master\window4.py", line 198, in retranslateUi
+    item = self.subject_table.horizontalHeaderItem(0)
+AttributeError: 'Ui_window4' object has no attribute 'subject_table'

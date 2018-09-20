@@ -1,0 +1,252 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                               BISHAL BUDHATHOKI                                                  *
+INFO:tt_main:*                                               BIPLOVE SHAKYA                                                     *
+INFO:tt_main:*                                               SHEKHAR PALIT                                                      *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                    SJC Institute of Technology, Nitte                                            *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+DEBUG:tt_main:Initializing and setting up fifth window
+DEBUG:tt_main:Year Window
+DEBUG:tt_main:First Window
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {}), ('IV', {}), ('V', {}), ('VI', {}), ('VII', {}), ('VIII', {})])
+DEBUG:tt_main:Third Window
+DEBUG:tt_main:Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Fifth Window
+DEBUG:tt_main:Generating timetable...
+Scheduling slots...
+Alotting subjects to slots...
+INFO:tt_algo:...generating...
+INFO:tt_algo:...adjusting clashes...
+INFO:tt_algo:0
+DEBUG:tt_main:Displaying timetable for  
+DEBUG:tt_main:Results display dialog
+INFO:tt_main:Printing...
+INFO:tt_main:Faculty
+DEBUG:tt_main:Warning! Select the faculty to print timetable.
+INFO:tt_main:Students
+INFO:tt_main:Printing...
+INFO:tt_main:Students
+DEBUG:tt_main:Warning! Select Semester and Section to print timetable.
+INFO:tt_main:Printing...
+INFO:tt_main:Students
+DEBUG:tt_main:Warning! Select Semester and Section to print timetable.
+DEBUG:tt_main:Fourth Window
+DEBUG:tt_main:Third Window
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:First Window
+INFO:tt_main:File Menu option clicked: Load
+DEBUG:tt_main:Load confirmed
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Students
+DEBUG:tt_main:Input-Please enter the input type.
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+INFO:tt_main:Input type: Faculty
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Input type: Subjects
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:IV 0
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:IV 1
+INFO:tt_main:IV 2
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :AA aa 1 True
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', [subject('AA', 'aa', 1, True, '1')]), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :BB bb 1 True
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', [subject('AA', 'aa', 1, True, '1'), subject('BB', 'bb', 1, True, '2')]), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :cc cc 1 False
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', [subject('AA', 'aa', 1, True, '1'), subject('BB', 'bb', 1, True, '2'), subject('cc', 'cc', 1, False, '3')]), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :DD dd 1 False
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', [subject('AA', 'aa', 1, True, '1'), subject('BB', 'bb', 1, True, '2'), subject('cc', 'cc', 1, False, '3'), subject('DD', 'dd', 1, False, '4')]), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :EE ee 1 False
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', [subject('AA', 'aa', 1, True, '1'), subject('BB', 'bb', 1, True, '2'), subject('cc', 'cc', 1, False, '3'), subject('DD', 'dd', 1, False, '4'), subject('EE', 'ee', 1, False, '5')]), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :FF ff 1 False
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', [subject('AA', 'aa', 1, True, '1'), subject('BB', 'bb', 1, True, '2'), subject('cc', 'cc', 1, False, '3'), subject('DD', 'dd', 1, False, '4'), subject('EE', 'ee', 1, False, '5'), subject('FF', 'ff', 1, False, '6')]), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :GG gg 1 False
+INFO:tt_main:Faculty list: []
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', [subject('AA', 'aa', 1, True, '1'), subject('BB', 'bb', 1, True, '2'), subject('cc', 'cc', 1, False, '3'), subject('DD', 'dd', 1, False, '4'), subject('EE', 'ee', 1, False, '5'), subject('FF', 'ff', 1, False, '6'), subject('GG', 'gg', 1, False, '7')]), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {}), ('IV', {'A': [], 'B': []}), ('V', {}), ('VI', {}), ('VII', {}), ('VIII', {})])
+DEBUG:tt_main:Input-Please select a faculty member.
+DEBUG:tt_main:Input-Please select a faculty member.
+INFO:tt_main:Displaying assigned subjects for IV A
+INFO:tt_main:Subject assignments: []
+DEBUG:tt_main:Third Window
+INFO:tt_main:Semester: IV
+INFO:tt_main:Subject constraints: {}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 0
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 1
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 1
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa'}, 1: {1: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 0
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa'}, 1: {1: 'aa', 0: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 1
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa'}, 1: {1: 'aa', 0: 'aa'}, 2: {1: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 2
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa'}, 1: {1: 'aa', 0: 'aa'}, 2: {1: 'aa'}, 3: {2: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 2
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa'}, 2: {1: 'aa'}, 3: {2: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 3
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa'}, 2: {1: 'aa'}, 3: {2: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 3
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa'}, 2: {1: 'aa'}, 3: {2: 'aa', 3: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 5
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 6
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 7
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 7
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 6
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:5 4
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa'}, 5: {4: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:5 3
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa'}, 5: {4: 'aa', 3: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:5 2
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 1
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 1: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 1
+INFO:tt_main:aa exists
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 0
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:5 0
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 1
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:5 1
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa', 1: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 2
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa', 2: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa', 1: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 3
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa', 2: 'aa', 3: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa', 1: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 4
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa', 2: 'aa', 3: 'aa', 4: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa', 1: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:5 5
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa', 2: 'aa', 3: 'aa', 4: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa', 1: 'aa', 5: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 5
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa', 2: 'aa', 3: 'aa', 4: 'aa', 5: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa', 1: 'aa', 5: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 4
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa', 4: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa', 2: 'aa', 3: 'aa', 4: 'aa', 5: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa', 1: 'aa', 5: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 3
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa', 3: 'aa'}, 1: {1: 'aa', 0: 'aa', 2: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa', 4: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa', 2: 'aa', 3: 'aa', 4: 'aa', 5: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa', 1: 'aa', 5: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 2
+INFO:tt_main:aa exists
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa', 3: 'aa'}, 1: {1: 'aa', 0: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa', 4: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa', 2: 'aa', 3: 'aa', 4: 'aa', 5: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa', 1: 'aa', 5: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 2
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa', 3: 'aa'}, 1: {1: 'aa', 0: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa', 4: 'aa', 2: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa', 2: 'aa', 3: 'aa', 4: 'aa', 5: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa', 1: 'aa', 5: 'aa'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 0
+INFO:tt_main:Subject constraints: {'IV': {'A': {0: {0: 'aa', 1: 'aa', 7: 'aa', 3: 'aa'}, 1: {1: 'aa', 0: 'aa', 3: 'aa', 7: 'aa'}, 2: {1: 'aa', 5: 'aa', 4: 'aa', 2: 'aa', 0: 'aa'}, 3: {2: 'aa', 3: 'aa', 6: 'aa'}, 4: {6: 'aa', 0: 'aa', 1: 'aa', 2: 'aa', 3: 'aa', 4: 'aa', 5: 'aa'}, 5: {4: 'aa', 3: 'aa', 2: 'aa', 0: 'aa', 1: 'aa', 5: 'aa'}}}}
+DEBUG:tt_main:Fourth Window
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:3 4
+INFO:tt_main:Faculty constraints: {'': {3: {4: '-'}}}
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:2 3
+INFO:tt_main:Faculty constraints: {'': {3: {4: '-'}, 2: {3: '-'}}}
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:1 2
+INFO:tt_main:Faculty constraints: {'': {3: {4: '-'}, 2: {3: '-'}, 1: {2: '-'}}}
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:2 1
+INFO:tt_main:Faculty constraints: {'': {3: {4: '-'}, 2: {3: '-', 1: '-'}, 1: {2: '-'}}}
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:3 7
+INFO:tt_main:Faculty constraints: {'': {3: {4: '-', 7: '-'}, 2: {3: '-', 1: '-'}, 1: {2: '-'}}}
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Fifth Window
+DEBUG:tt_main:Generating timetable...
+Scheduling slots...
+Alotting subjects to slots...
+ERROR:tt_main:Logging an uncaught exception
+Traceback (most recent call last):
+  File "D:/Projects/timetable-master/timetable-master/ui_controller.py", line 1435, in generate_event
+    self.timetables, self.faculty_timetables, dayclash = tt.produce_timetable(self, loc)
+  File "D:\Projects\timetable-master\timetable-master\tt.py", line 316, in produce_timetable
+    sub = subjects_ref[sem][section][short]
+KeyError: 'aa'

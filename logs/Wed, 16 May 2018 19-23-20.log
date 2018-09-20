@@ -1,0 +1,432 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                             BISHAL BUDHATHOKI                                                    *
+INFO:tt_main:*                                             BIPLOVE SHAKYA                                                       *
+INFO:tt_main:*                                             SHEKHAR PALIT                                                        *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   S.J.C. Institute of Technology, SJCIT                                          *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+DEBUG:tt_main:Initializing and setting up fifth window
+DEBUG:tt_main:Year Window
+INFO:tt_main:Academic year: January 2018 January 2018 Department: Computer Science & Engineering
+DEBUG:tt_main:First Window
+INFO:tt_main:File Menu option clicked: Load
+DEBUG:tt_main:Load confirmed
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/I2.json
+INFO:tt_main:Loading from json file
+DEBUG:tt_main:Success. Loaded all saved data from D:/Projects/timetable-master/timetable-master/Sample Inputs/I2.json
+DEBUG:tt_main:Reset all windows and displaying 1st window
+DEBUG:tt_main:Resetting First Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', OrderedDict()), ('IV', OrderedDict()), ('V', OrderedDict()), ('VI', OrderedDict([('A', ['CNC - CNC - Harshavardhan', 'CGV - CGV - Sushmitha M', 'MC - MC - Rashmi K A', 'CG LAB - CG LAB - Sushmitha M, Vinutha K, Girish B G', 'SS&OS LAB - SS&OS LAB - Shrihari M R', 'PAP - PAP - Shashikanth T S', 'OR - OR - Girish B G', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M']), ('B', ['CNC - CNC - Apoorva S', 'CGV - CGV - Srinath G M', 'CG LAB - CG LAB - Srinath G M, Narendra Babu C, Murthy S V N', 'SS&OS LAB - SS&OS LAB - Ajay N', 'PAP - PAP - Shashikanth T S', 'OR - OR - Vinutha K', 'SS&CD - SS&CD - Ajay N', 'OS - OS - Diwakar K M'])])), ('VII', OrderedDict()), ('VIII', OrderedDict([('A', ['SA - SA - Apoorva S', 'SMS - SMS - Bhararthi M', 'PS - PS - Ajay N', 'TS - TS - Srinath G M', 'CGC - CGC - Vinutha K', 'ST - ST - Ajay H C', 'INS - INS - Harshavardhan', 'NMS - NMS - Venkatesh K M']), ('B', ['ST - ST - Ajay H C', 'INS - INS - Rashmi K A', 'SA - SA - Jagadish N', 'SMS - SMS - Srinivas Murthy H', 'CGC - CGC - Sushmitha M', 'NMS - NMS - Venkatesh K M', 'TS - TS - Srinath G M', 'PS - PS - Ajay N'])]))])
+DEBUG:tt_main:Resetting Third Window
+DEBUG:tt_main:Resetting Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Resetting Elective Window
+DEBUG:tt_main:Resetting Year Window
+INFO:tt_main:Input type: Subjects
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:VI 2
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Remove button first form
+DEBUG:tt_main:Subjects-SS&OS LAB - SS&OS LAB removed from the subject list.
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('OS', 'OS', 5, False, '3'), subject('PAP', 'PAP', 5, False, '9'), subject('CG LAB', 'CG LAB', 3, True, '2'), subject('SS&CD', 'SS&CD', 5, False, '5'), subject('OR', 'OR', 5, False, '4'), subject('MC', 'MC', 5, False, '8'), subject('CGV', 'CGV', 5, False, '1'), subject('CNC', 'CNC', 5, False, '7')]), ('VII', []), ('VIII', [subject('INS', 'INS', 5, False, '19'), subject('ST', 'ST', 5, False, '17'), subject('CGC', 'CGC', 5, False, '16'), subject('TS', 'TS', 5, False, '14'), subject('SMS', 'SMS', 5, False, '12'), subject('NMS', 'NMS', 5, False, '18'), subject('PS', 'PS', 5, False, '13'), subject('SA', 'SA', 5, False, '11')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :CG | SS&OS LAB CG | SS&OS LAB 0 True
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('OS', 'OS', 5, False, '3'), subject('PAP', 'PAP', 5, False, '9'), subject('CG LAB', 'CG LAB', 3, True, '2'), subject('SS&CD', 'SS&CD', 5, False, '5'), subject('OR', 'OR', 5, False, '4'), subject('MC', 'MC', 5, False, '8'), subject('CGV', 'CGV', 5, False, '1'), subject('CNC', 'CNC', 5, False, '7'), subject('CG | SS&OS LAB', 'CG | SS&OS LAB', 0, True, '6')]), ('VII', []), ('VIII', [subject('INS', 'INS', 5, False, '19'), subject('ST', 'ST', 5, False, '17'), subject('CGC', 'CGC', 5, False, '16'), subject('TS', 'TS', 5, False, '14'), subject('SMS', 'SMS', 5, False, '12'), subject('NMS', 'NMS', 5, False, '18'), subject('PS', 'PS', 5, False, '13'), subject('SA', 'SA', 5, False, '11')])])
+DEBUG:tt_main:Remove button first form
+DEBUG:tt_main:Subjects-CG LAB - CG LAB removed from the subject list.
+INFO:tt_main:Faculty list: [faculty_class('Ajay H C', 'Prof.', 'Assistant Professor'), faculty_class('Ajay N', 'Prof.', 'Assistant Professor'), faculty_class('Apoorva S', 'Prof.', 'Assistant Professor'), faculty_class('Archana N', 'Prof.', 'Assistant Professor'), faculty_class('Bhararthi M', 'Dr.', 'Associate Professor'), faculty_class('Diwakar K M', 'Prof.', 'Assistant Professor'), faculty_class('Girish B G', 'Prof.', 'Assistant Professor'), faculty_class('Harshavardhan', 'Prof.', 'Assistant Professor'), faculty_class('Jagadish N', 'Prof.', 'Assistant Professor'), faculty_class('M. Seshaiah', 'Prof.', 'Assistant Professor'), faculty_class('Manjunath S', 'Prof.', 'Assistant Professor'), faculty_class('Murthy S V N', 'Dr.', 'Associate Professor'), faculty_class('Narendra Babu C', 'Prof.', 'Professor'), faculty_class('Pampana', 'Prof.', 'Associate Professor'), faculty_class('Pradeep Kumar', 'Prof.', 'Assistant Professor'), faculty_class('Rashmi K A', 'Prof.', 'Assistant Professor'), faculty_class('Shashikanth T S', 'Prof.', 'Assistant Professor'), faculty_class('Shrihari M R', 'Prof.', 'Assistant Professor'), faculty_class('Srinath G M', 'Prof.', 'Assistant Professor'), faculty_class('Srinivas Murthy H', 'Prof.', 'Associate Professor'), faculty_class('Sushmitha M', 'Prof.', 'Assistant Professor'), faculty_class('Swetha T', 'Prof.', 'Assistant Professor'), faculty_class('T.N Anitha', 'Dr.', 'Head of Department'), faculty_class('Venkatesh K M', 'Prof.', 'Assistant Professor'), faculty_class('Vijay G R', 'Prof.', 'Associate Professor'), faculty_class('Vikas Reddy.S', 'Prof.', 'Assistant Professor'), faculty_class('Vinutha K', 'Prof.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', [subject('OS', 'OS', 5, False, '3'), subject('PAP', 'PAP', 5, False, '9'), subject('SS&CD', 'SS&CD', 5, False, '5'), subject('OR', 'OR', 5, False, '4'), subject('MC', 'MC', 5, False, '8'), subject('CGV', 'CGV', 5, False, '1'), subject('CNC', 'CNC', 5, False, '7'), subject('CG | SS&OS LAB', 'CG | SS&OS LAB', 0, True, '6')]), ('VII', []), ('VIII', [subject('INS', 'INS', 5, False, '19'), subject('ST', 'ST', 5, False, '17'), subject('CGC', 'CGC', 5, False, '16'), subject('TS', 'TS', 5, False, '14'), subject('SMS', 'SMS', 5, False, '12'), subject('NMS', 'NMS', 5, False, '18'), subject('PS', 'PS', 5, False, '13'), subject('SA', 'SA', 5, False, '11')])])
+INFO:tt_main:Input type: Faculty
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:Input type: Subjects
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', OrderedDict()), ('IV', OrderedDict()), ('V', OrderedDict()), ('VI', OrderedDict([('A', ['CNC - CNC - Harshavardhan', 'CGV - CGV - Sushmitha M', 'MC - MC - Rashmi K A', 'CG LAB - CG LAB - Sushmitha M, Vinutha K, Girish B G', 'SS&OS LAB - SS&OS LAB - Shrihari M R', 'PAP - PAP - Shashikanth T S', 'OR - OR - Girish B G', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M']), ('B', ['CNC - CNC - Apoorva S', 'CGV - CGV - Srinath G M', 'CG LAB - CG LAB - Srinath G M, Narendra Babu C, Murthy S V N', 'SS&OS LAB - SS&OS LAB - Ajay N', 'PAP - PAP - Shashikanth T S', 'OR - OR - Vinutha K', 'SS&CD - SS&CD - Ajay N', 'OS - OS - Diwakar K M'])])), ('VII', OrderedDict()), ('VIII', OrderedDict([('A', ['SA - SA - Apoorva S', 'SMS - SMS - Bhararthi M', 'PS - PS - Ajay N', 'TS - TS - Srinath G M', 'CGC - CGC - Vinutha K', 'ST - ST - Ajay H C', 'INS - INS - Harshavardhan', 'NMS - NMS - Venkatesh K M']), ('B', ['ST - ST - Ajay H C', 'INS - INS - Rashmi K A', 'SA - SA - Jagadish N', 'SMS - SMS - Srinivas Murthy H', 'CGC - CGC - Sushmitha M', 'NMS - NMS - Venkatesh K M', 'TS - TS - Srinath G M', 'PS - PS - Ajay N'])]))])
+INFO:tt_main:Displaying assigned subjects for Ajay H C
+INFO:tt_main:Faculty subject allotments: ['ST - ST - VIII A', 'ST - ST - VIII B']
+INFO:tt_main:Displaying assigned subjects for Ajay N
+INFO:tt_main:Faculty subject allotments: ['PS - PS - VIII A', 'PS - PS - VIII B', 'SS&OS LAB - SS&OS LAB - VI B', 'SS&CD - SS&CD - VI B']
+DEBUG:tt_main:Subject-faculty assignment: [SS&OS LAB - SS&OS LAB - Ajay N] removed
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan', 'CGV - CGV - Sushmitha M', 'MC - MC - Rashmi K A', 'CG LAB - CG LAB - Sushmitha M, Vinutha K, Girish B G', 'SS&OS LAB - SS&OS LAB - Shrihari M R', 'PAP - PAP - Shashikanth T S', 'OR - OR - Girish B G', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M']
+DEBUG:tt_main:Subject-faculty assignment: [CG LAB - CG LAB - Sushmitha M, Vinutha K, Girish B G] removed
+DEBUG:tt_main:Subject-faculty assignment: [SS&OS LAB - SS&OS LAB - Shrihari M R] removed
+INFO:tt_main:Displaying assigned subjects for Sushmitha M
+INFO:tt_main:Faculty subject allotments: ['CGC - CGC - VIII B', 'CGV - CGV - VI A']
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan', 'CGV - CGV - Sushmitha M', 'MC - MC - Rashmi K A', 'PAP - PAP - Shashikanth T S', 'OR - OR - Girish B G', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M', 'CG | SS&OS LAB - CG | SS&OS LAB - Sushmitha M']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Shrihari M R
+INFO:tt_main:Faculty subject allotments: ['SS&CD - SS&CD - VI A']
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan', 'CGV - CGV - Sushmitha M', 'MC - MC - Rashmi K A', 'PAP - PAP - Shashikanth T S', 'OR - OR - Girish B G', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M', 'CG | SS&OS LAB - CG | SS&OS LAB - Sushmitha M, Shrihari M R']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for VI B
+INFO:tt_main:Subject assignments: ['CNC - CNC - Apoorva S', 'CGV - CGV - Srinath G M', 'CG LAB - CG LAB - Srinath G M, Narendra Babu C, Murthy S V N', 'PAP - PAP - Shashikanth T S', 'OR - OR - Vinutha K', 'SS&CD - SS&CD - Ajay N', 'OS - OS - Diwakar K M']
+DEBUG:tt_main:Subject-faculty assignment: [CG LAB - CG LAB - Srinath G M, Narendra Babu C, Murthy S V N] removed
+INFO:tt_main:Displaying assigned subjects for Srinath G M
+INFO:tt_main:Faculty subject allotments: ['TS - TS - VIII A', 'TS - TS - VIII B', 'CGV - CGV - VI B']
+INFO:tt_main:Displaying assigned subjects for VI B
+INFO:tt_main:Subject assignments: ['CNC - CNC - Apoorva S', 'CGV - CGV - Srinath G M', 'PAP - PAP - Shashikanth T S', 'OR - OR - Vinutha K', 'SS&CD - SS&CD - Ajay N', 'OS - OS - Diwakar K M', 'CG | SS&OS LAB - CG | SS&OS LAB - Srinath G M']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for Ajay N
+INFO:tt_main:Faculty subject allotments: ['PS - PS - VIII A', 'PS - PS - VIII B', 'SS&CD - SS&CD - VI B']
+INFO:tt_main:Displaying assigned subjects for VI B
+INFO:tt_main:Subject assignments: ['CNC - CNC - Apoorva S', 'CGV - CGV - Srinath G M', 'PAP - PAP - Shashikanth T S', 'OR - OR - Vinutha K', 'SS&CD - SS&CD - Ajay N', 'OS - OS - Diwakar K M', 'CG | SS&OS LAB - CG | SS&OS LAB - Srinath G M, Ajay N']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:File Menu option clicked: Load
+DEBUG:tt_main:Load cancelled
+INFO:tt_main:File Menu option clicked: Save As
+DEBUG:tt_main:Save file dialog
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/college.json
+INFO:tt_main:Saving as json file
+DEBUG:tt_main:Success. Saved to D:/Projects/timetable-master/timetable-master/Sample Inputs/college.json
+INFO:tt_main:Displaying assigned subjects for VI A
+INFO:tt_main:Subject assignments: ['CNC - CNC - Harshavardhan', 'CGV - CGV - Sushmitha M', 'MC - MC - Rashmi K A', 'PAP - PAP - Shashikanth T S', 'OR - OR - Girish B G', 'SS&CD - SS&CD - Shrihari M R', 'OS - OS - Bhararthi M', 'CG | SS&OS LAB - CG | SS&OS LAB - Sushmitha M, Shrihari M R']
+INFO:tt_main:Displaying assigned subjects for Ajay N
+INFO:tt_main:Faculty subject allotments: ['PS - PS - VIII A', 'PS - PS - VIII B', 'SS&CD - SS&CD - VI B', 'CG | SS&OS LAB - CG | SS&OS LAB - VI B']
+INFO:tt_main:Displaying assigned subjects for Ajay H C
+INFO:tt_main:Faculty subject allotments: ['ST - ST - VIII A', 'ST - ST - VIII B']
+INFO:tt_main:Displaying assigned subjects for Srinath G M
+INFO:tt_main:Faculty subject allotments: ['TS - TS - VIII A', 'TS - TS - VIII B', 'CGV - CGV - VI B', 'CG | SS&OS LAB - CG | SS&OS LAB - VI B']
+DEBUG:tt_main:Third Window
+INFO:tt_main:Semester: VI
+INFO:tt_main:Subject constraints: {}
+INFO:tt_main:Slot type: CG | SS&OS LAB - CG | SS&OS LAB
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 0
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 1
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 2
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 5
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {5: 'CG | SS&OS LAB'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 6
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 7
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB'}}}}
+INFO:tt_main:Slot type: -
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB'}, 0: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB'}, 0: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB'}, 0: {4: '-'}, 2: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-'}, 4: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:5 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 3
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Section B
+INFO:tt_main:Displaying subject constraints for: VI B
+INFO:tt_main:Slot type: -
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:5 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 3
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 3
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-'}, 3: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 3
+INFO:tt_main:- exists
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Slot type: CG | SS&OS LAB - CG | SS&OS LAB
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 0
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 1
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 2
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {4: 'CG | SS&OS LAB'}, 5: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 5
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {4: 'CG | SS&OS LAB', 5: 'CG | SS&OS LAB'}, 5: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 6
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {4: 'CG | SS&OS LAB', 5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB'}, 5: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 4
+INFO:tt_main:CG | SS&OS LAB exists
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB'}, 5: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 7
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB'}, 5: {4: '-'}}}}
+INFO:tt_main:Slot type: -
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Semester: VIII
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Slot type: -
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:5 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}}}
+INFO:tt_main:Section B
+INFO:tt_main:Displaying subject constraints for: VIII B
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:5 4
+INFO:tt_main:Subject constraints: {'VI': {'A': {1: {0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB', 4: '-'}, 3: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 0: {4: '-'}, 2: {4: '-', 3: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-', 3: '-', 0: 'CG | SS&OS LAB', 1: 'CG | SS&OS LAB', 2: 'CG | SS&OS LAB'}, 3: {4: '-'}, 4: {5: 'CG | SS&OS LAB', 6: 'CG | SS&OS LAB', 7: 'CG | SS&OS LAB', 4: '-'}, 5: {4: '-'}}}, 'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}, 'B': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-'}, 4: {4: '-'}, 5: {4: '-'}}}}
+DEBUG:tt_main:Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Fifth Window
+DEBUG:tt_main:Generating timetable...
+Scheduling slots...
+Alotting subjects to slots...
+INFO:tt_algo:VI A                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:tuesday              CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:VI B                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:VIII B               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:...generating...
+INFO:tt_algo:
+INFO:tt_algo:no free slots for VI A ['CGV', 5, 'Sushmitha M', 'CGV']
+INFO:tt_algo:no free slots for VI A ['MC', 5, 'Rashmi K A', 'MC']
+INFO:tt_algo:no free slots for VI A ['PAP', 5, 'Shashikanth T S', 'PAP']
+INFO:tt_algo:VI A                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               CNC                  CGV                  MC                   PAP                  -                    OR                   SS&CD                OS                  
+INFO:tt_algo:tuesday              CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       SS&CD                -                    OS                   PAP                  OR                  
+INFO:tt_algo:wednesday            CNC                  CGV                  MC                   -                    -                    PAP                  OR                   SS&CD               
+INFO:tt_algo:thursday             OR                   SS&CD                OS                   CNC                  -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:friday               CGV                  MC                   PAP                  OR                   -                    SS&CD                CNC                  OS                  
+INFO:tt_algo:saturday             OS                   CNC                  CGV                  MC                  
+INFO:tt_algo:
+
+INFO:tt_algo:
+INFO:tt_algo:no free slots for VI B ['PAP', 5, 'Shashikanth T S', 'PAP']
+INFO:tt_algo:no free slots for VI B ['OR', 5, 'Vinutha K', 'OR']
+INFO:tt_algo:VI B                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               CNC                  CGV                  PAP                  OR                   -                    SS&CD                OS                   -                   
+INFO:tt_algo:tuesday              OS                   CNC                  CGV                  PAP                  -                    OR                   SS&CD                -                   
+INFO:tt_algo:wednesday            CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       -                    -                    SS&CD                CNC                  CGV                 
+INFO:tt_algo:thursday             OS                   CNC                  CGV                  PAP                  -                    OR                   -                    -                   
+INFO:tt_algo:friday               SS&CD                OS                   CNC                  CGV                  -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:saturday             PAP                  OR                   SS&CD                OS                  
+INFO:tt_algo:
+
+INFO:tt_algo:
+INFO:tt_algo:no free slots for VIII A ['INS', 5, 'Harshavardhan', 'INS']
+INFO:tt_algo:no free slots for VIII A ['NMS', 5, 'Venkatesh K M', 'NMS']
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               SA                   SMS                  PS                   TS                   -                    CGC                  ST                   INS                 
+INFO:tt_algo:tuesday              ST                   INS                  NMS                  SA                   -                    SMS                  PS                   TS                  
+INFO:tt_algo:wednesday            CGC                  ST                   INS                  PS                   -                    TS                   NMS                  SA                  
+INFO:tt_algo:thursday             NMS                  SA                   SMS                  PS                   -                    TS                   CGC                  ST                  
+INFO:tt_algo:friday               CGC                  ST                   INS                  NMS                  -                    SA                   SMS                  -                   
+INFO:tt_algo:saturday             SMS                  PS                   TS                   CGC                 
+INFO:tt_algo:
+
+INFO:tt_algo:
+INFO:tt_algo:no free slots for VIII B ['CGC', 5, 'Sushmitha M', 'CGC']
+INFO:tt_algo:no free slots for VIII B ['PS', 5, 'Ajay N', 'PS']
+INFO:tt_algo:VIII B               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               ST                   INS                  SA                   SMS                  -                    CGC                  NMS                  TS                  
+INFO:tt_algo:tuesday              NMS                  TS                   PS                   ST                   -                    INS                  SA                   SMS                 
+INFO:tt_algo:wednesday            SA                   SMS                  CGC                  NMS                  -                    TS                   PS                   ST                  
+INFO:tt_algo:thursday             PS                   ST                   INS                  SA                   -                    SMS                  NMS                  TS                  
+INFO:tt_algo:friday               CGC                  NMS                  TS                   PS                   -                    ST                   INS                  -                   
+INFO:tt_algo:saturday             INS                  SA                   SMS                  CGC                 
+INFO:tt_algo:
+
+INFO:tt_algo:...adjusting clashes...
+INFO:tt_algo:VI A                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               PAP                  CGV                  CGV                  MC                   -                    MC                   SS&CD                OS                  
+INFO:tt_algo:tuesday              CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       CNC                  -                    SS&CD                PAP                  OS                  
+INFO:tt_algo:wednesday            CGV                  CNC                  MC                   -                    -                    PAP                  OS                   SS&CD               
+INFO:tt_algo:thursday             PAP                  SS&CD                OR                   CNC                  -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:friday               CGV                  MC                   PAP                  OS                   -                    SS&CD                CNC                  OS                  
+INFO:tt_algo:saturday             CGV                  CNC                  OR                   MC                  
+INFO:tt_algo:
+
+INFO:tt_algo:VI B                 9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               OR                   CGV                  PAP                  OR                   -                    SS&CD                CNC                  PAP                 
+INFO:tt_algo:tuesday              SS&CD                CNC                  CGV                  PAP                  -                    OR                   OS                   -                   
+INFO:tt_algo:wednesday            CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB       -                    -                    CNC                  OS                   CGV                 
+INFO:tt_algo:thursday             OR                   CNC                  CGV                  PAP                  -                    SS&CD                OS                   -                   
+INFO:tt_algo:friday               SS&CD                OS                   CNC                  CGV                  -                    CG | SS&OS LAB       CG | SS&OS LAB       CG | SS&OS LAB      
+INFO:tt_algo:saturday             PAP                  OR                   SS&CD                OS                  
+INFO:tt_algo:
+
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               INS                  NMS                  PS                   TS                   -                    CGC                  ST                   INS                 
+INFO:tt_algo:tuesday              SMS                  INS                  NMS                  SA                   -                    SA                   PS                   TS                  
+INFO:tt_algo:wednesday            SMS                  ST                   ST                   CGC                  -                    INS                  NMS                  SA                  
+INFO:tt_algo:thursday             PS                   TS                   SMS                  PS                   -                    TS                   CGC                  ST                  
+INFO:tt_algo:friday               SA                   ST                   INS                  NMS                  -                    NMS                  SA                   CGC                 
+INFO:tt_algo:saturday             TS                   PS                   SMS                  CGC                 
+INFO:tt_algo:
+
+INFO:tt_algo:VIII B               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               PS                   INS                  ST                   NMS                  -                    TS                   CGC                  PS                  
+INFO:tt_algo:tuesday              INS                  TS                   PS                   ST                   -                    CGC                  NMS                  SMS                 
+INFO:tt_algo:wednesday            SA                   SMS                  CGC                  NMS                  -                    TS                   PS                   ST                  
+INFO:tt_algo:thursday             SA                   ST                   INS                  SA                   -                    SMS                  NMS                  TS                  
+INFO:tt_algo:friday               TS                   NMS                  CGC                  PS                   -                    ST                   INS                  SA                  
+INFO:tt_algo:saturday             INS                  SA                   SMS                  CGC                 
+INFO:tt_algo:
+
+INFO:tt_algo:VI A ['OR', 5, 'Girish B G', 'OR']
+INFO:tt_algo:VIII A ['SMS', 5, 'Bhararthi M', 'SMS']
+INFO:tt_algo:VI A ['OR', 5, 'Girish B G', 'OR']
+INFO:tt_algo:VIII B ['SMS', 5, 'Srinivas Murthy H', 'SMS']
+INFO:tt_algo:VI A ['OR', 5, 'Girish B G', 'OR']
+INFO:tt_algo:5
+DEBUG:tt_main:Displaying timetable for  
+DEBUG:tt_main:Results display dialog
+INFO:tt_main:Students
+DEBUG:tt_main:Populating section combobox for VI semester
+DEBUG:tt_main:Displaying timetable for VI A
+DEBUG:tt_main:Displaying timetable for VI B
+INFO:tt_main:Swapping alloted classes between two slots at user's risk
+INFO:tt_main:0 1
+INFO:tt_main:1 2
+DEBUG:tt_main:For VI B
+INFO:tt_main:Swap element 1: CGV
+INFO:tt_main:Swap element 2: CGV
+DEBUG:tt_main:Swap failed
+DEBUG:tt_main:Conflicts during swapping in generated timetable dialog
+DEBUG:tt_main:[('Srinath G M', 'tuesday', 3, 'VI B CGV'), ('Srinath G M', 'monday', 2, 'VI B CGV')]
+DEBUG:tt_main:Populating section combobox for VIII semester
+DEBUG:tt_main:Displaying timetable for VIII A
+DEBUG:tt_main:Displaying timetable for VIII B
+INFO:tt_main:File Menu option clicked: Save As
+DEBUG:tt_main:Save file dialog
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/csedept.json
+INFO:tt_main:Saving as json file
+DEBUG:tt_main:Success. Saved to D:/Projects/timetable-master/timetable-master/Sample Inputs/csedept.json
+INFO:tt_main:Storing room number alloted to each section in each semester
+INFO:tt_main:Storing room number alloted to each section in each semester
+INFO:tt_main:Storing room number alloted to each section in each semester
+INFO:tt_main:Printing...
+INFO:tt_main:Students
+INFO:tt_main:Printing timetable for VIII B
+DEBUG:tt_main:User has clicked on Exit/Finish/'X'
+DEBUG:tt_main:User clicked Save. Program will save and exit
+INFO:tt_main:Saving as json file
+DEBUG:tt_main:Success. Saved to D:/Projects/timetable-master/timetable-master/Sample Inputs/csedept.json
+DEBUG:tt_main:Quitting Program by user's choice, no errors

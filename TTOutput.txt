@@ -1,0 +1,444 @@
+INFO:tt_algo:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_algo:... generating ...
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Shilpa M K', 'CG')
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Shilpa M K', 'CG')
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Vinutha K', 'CN')
+INFO:tt_algo:
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 4A ('Data Communications', 5, 'Mr. Srinivasa Murthy H', 'DC')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 4B ('Unix Programming', 4, 'Mr. Diwakar KM', 'Unix')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Naveen Chandavarkar', 'BAI')
+INFO:tt_algo:no free slots for 8A ('', 5, '', 'OE')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Rama Krishna', 'EM')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Naveen Chandavarkar', 'BAI')
+INFO:tt_algo:no free slots for 8A ('', 5, '', 'OE')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Sunil Kumar Aithal', 'BAI')
+INFO:tt_algo:no free slots for 8B ('', 5, '', 'OE')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Rama Krishna', 'EM')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Sunil Kumar Aithal', 'BAI')
+INFO:tt_algo:no free slots for 8B ('', 5, '', 'OE')
+INFO:tt_algo:... adjusting clashes ...
+INFO:tt_algo:8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:6A ('', 1, 'Mrs. Archana N', 'ESD')
+INFO:tt_algo:6A ('', 5, 'Mr. Mahesh Kini', 'ST')
+INFO:tt_algo:4A ('Computer Organization & Architecture', 5, 'Mr. Pampana', 'CO')
+INFO:tt_algo:5
+INFO:tt_algo:... 2nd pass ...
+INFO:tt_algo:8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:6A ('', 1, 'Mrs. Archana N', 'ESD')
+INFO:tt_algo:6A ('', 5, 'Mr. Mahesh Kini', 'ST')
+INFO:tt_algo:4A ('Computer Organization & Architecture', 5, 'Mr. Pampana', 'CO')
+INFO:tt_algo:5
+INFO:tt_algo:4A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               DAA                  Maths                -                    Unix                 DC                   -                    DC                   FAFL                
+INFO:tt_algo:tuesday              CO                   DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         CO                   Maths                DAA                  FAFL                
+INFO:tt_algo:wednesday            Unix                 DAA                  -                    DC                   FAFL                 -                    Unix                 CO                  
+INFO:tt_algo:thursday             Unix                 DAA                  -                    DC                   FAFL                 Maths                Maths                Maths               
+INFO:tt_algo:friday               FAFL                 DAA                  -                    CO                   -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:saturday             Unix                 DC                   -                    ESC                  ESC                 
+INFO:tt_algo:
+
+INFO:tt_algo:4B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               DAA                  Unix                 -                    DC                   CO                   DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:tuesday              Unix                 DAA                  -                    Maths                FAFL                 -                    FAFL                 DC                  
+INFO:tt_algo:wednesday            Unix                 DC                   -                    CO                   DAA                  Maths                FAFL                 CO                  
+INFO:tt_algo:thursday             Maths                FAFL                 -                    CO                   DC                   -                    ESC                  ESC                 
+INFO:tt_algo:friday               -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                    -                    DAA                  Unix                
+INFO:tt_algo:saturday             Maths                Maths                -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               JIT                  CG/CN Lab            CG/CN Lab            CG/CN Lab            ST                   -                    CG                   CN                  
+INFO:tt_algo:tuesday              CG                   CN                   -                    CCIM                 CG                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:wednesday            JIT                  CG/CN Lab            CG/CN Lab            CG/CN Lab            ST                   -                    JIT                  CG                  
+INFO:tt_algo:thursday             CN                   CCIM                 MC                   JIT                  CG                   -                    CN                   ST                  
+INFO:tt_algo:friday               CN                   JIT                  -                    MC                   ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:saturday             MC                   CCIM                 -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               CG                   CN                   -                    JIT                  ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:tuesday              CG/CN Lab            CG/CN Lab            CG/CN Lab            CCIM                 CN                   -                    CG                   -                   
+INFO:tt_algo:wednesday            JIT                  CN                   -                    CG                   ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:thursday             CN                   CCIM                 MC                   CG                   JIT                  -                    ESD                  -                   
+INFO:tt_algo:friday               CG/CN Lab            CG/CN Lab            CG/CN Lab            MC                   ST                   -                    JIT                  -                   
+INFO:tt_algo:saturday             MC                   CCIM                 -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:8A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               OE                   EM                   -                    OE                   BAI                  -                    EM                   BAI                 
+INFO:tt_algo:tuesday              BAI                  BA                   -                    OE                   BAI                  -                    OE                   EM                  
+INFO:tt_algo:wednesday            BAI                  BA                   -                    EM                   OE                   -                    BA                   -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    EM                   -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    BA                   -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:8B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               BAI                  BA                   -                    EM                   BAI                  -                    OE                   BA                  
+INFO:tt_algo:tuesday              OE                   EM                   -                    EM                   BAI                  -                    BAI                  BA                  
+INFO:tt_algo:wednesday            OE                   EM                   -                    OE                   BAI                  -                    BA                   -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    OE                   -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    EM                   -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Mr. Manjunath M      9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    DC (4B)              -                    -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    DC (4B)             
+INFO:tt_algo:wednesday            -                    DC (4B)              -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    MC (6B)              -                    DC (4B)              -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    MC (6B)              -                    -                    -                    -                   
+INFO:tt_algo:saturday             MC (6B)              -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Mr. M Seshaiah       9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    CO (4B)              -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    -                    -                    CO (4B)              -                    -                    -                    CO (4B)             
+INFO:tt_algo:thursday             -                    -                    -                    CO (4B)              -                    -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_algo:... generating ...
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Shilpa M K', 'CG')
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Shilpa M K', 'CG')
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Vinutha K', 'CN')
+INFO:tt_algo:
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 4A ('Data Communications', 5, 'Mr. Srinivasa Murthy H', 'DC')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 4B ('Unix Programming', 4, 'Mr. Diwakar KM', 'Unix')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Naveen Chandavarkar', 'BAI')
+INFO:tt_algo:no free slots for 8A ('', 5, '', 'OE')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Rama Krishna', 'EM')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Naveen Chandavarkar', 'BAI')
+INFO:tt_algo:no free slots for 8A ('', 5, '', 'OE')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Sunil Kumar Aithal', 'BAI')
+INFO:tt_algo:no free slots for 8B ('', 5, '', 'OE')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Rama Krishna', 'EM')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Sunil Kumar Aithal', 'BAI')
+INFO:tt_algo:no free slots for 8B ('', 5, '', 'OE')
+INFO:tt_algo:... adjusting clashes ...
+INFO:tt_algo:8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:6A ('', 1, 'Mrs. Archana N', 'ESD')
+INFO:tt_algo:6A ('', 5, 'Mr. Mahesh Kini', 'ST')
+INFO:tt_algo:4A ('Computer Organization & Architecture', 5, 'Mr. Pampana', 'CO')
+INFO:tt_algo:5
+INFO:tt_algo:... 2nd pass ...
+INFO:tt_algo:8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:6A ('', 1, 'Mrs. Archana N', 'ESD')
+INFO:tt_algo:6A ('', 5, 'Mr. Mahesh Kini', 'ST')
+INFO:tt_algo:4A ('Computer Organization & Architecture', 5, 'Mr. Pampana', 'CO')
+INFO:tt_algo:5
+INFO:tt_algo:4A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               DAA                  Maths                -                    Unix                 DC                   -                    DC                   FAFL                
+INFO:tt_algo:tuesday              CO                   DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         CO                   Maths                DAA                  FAFL                
+INFO:tt_algo:wednesday            Unix                 DAA                  -                    DC                   FAFL                 -                    Unix                 CO                  
+INFO:tt_algo:thursday             Unix                 DAA                  -                    DC                   FAFL                 Maths                Maths                Maths               
+INFO:tt_algo:friday               FAFL                 DAA                  -                    CO                   -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:saturday             Unix                 DC                   -                    ESC                  ESC                 
+INFO:tt_algo:
+
+INFO:tt_algo:4B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               DAA                  Unix                 -                    DC                   CO                   DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:tuesday              Unix                 DAA                  -                    Maths                FAFL                 -                    FAFL                 DC                  
+INFO:tt_algo:wednesday            Unix                 DC                   -                    CO                   DAA                  Maths                FAFL                 CO                  
+INFO:tt_algo:thursday             Maths                FAFL                 -                    CO                   DC                   -                    ESC                  ESC                 
+INFO:tt_algo:friday               -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                    -                    DAA                  Unix                
+INFO:tt_algo:saturday             Maths                Maths                -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               JIT                  CG/CN Lab            CG/CN Lab            CG/CN Lab            ST                   -                    CG                   CN                  
+INFO:tt_algo:tuesday              CG                   CN                   -                    CCIM                 CG                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:wednesday            JIT                  CG/CN Lab            CG/CN Lab            CG/CN Lab            ST                   -                    JIT                  CG                  
+INFO:tt_algo:thursday             CN                   CCIM                 MC                   JIT                  CG                   -                    CN                   ST                  
+INFO:tt_algo:friday               CN                   JIT                  -                    MC                   ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:saturday             MC                   CCIM                 -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               CG                   CN                   -                    JIT                  ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:tuesday              CG/CN Lab            CG/CN Lab            CG/CN Lab            CCIM                 CN                   -                    CG                   -                   
+INFO:tt_algo:wednesday            JIT                  CN                   -                    CG                   ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:thursday             CN                   CCIM                 MC                   CG                   JIT                  -                    ESD                  -                   
+INFO:tt_algo:friday               CG/CN Lab            CG/CN Lab            CG/CN Lab            MC                   ST                   -                    JIT                  -                   
+INFO:tt_algo:saturday             MC                   CCIM                 -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:8A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               OE                   EM                   -                    OE                   BAI                  -                    EM                   BAI                 
+INFO:tt_algo:tuesday              BAI                  BA                   -                    OE                   BAI                  -                    OE                   EM                  
+INFO:tt_algo:wednesday            BAI                  BA                   -                    EM                   OE                   -                    BA                   -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    EM                   -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    BA                   -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:8B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               BAI                  BA                   -                    EM                   BAI                  -                    OE                   BA                  
+INFO:tt_algo:tuesday              OE                   EM                   -                    EM                   BAI                  -                    BAI                  BA                  
+INFO:tt_algo:wednesday            OE                   EM                   -                    OE                   BAI                  -                    BA                   -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    OE                   -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    EM                   -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Mr. Manjunath M      9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    DC (4B)              -                    -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    DC (4B)             
+INFO:tt_algo:wednesday            -                    DC (4B)              -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    MC (6B)              -                    DC (4B)              -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    MC (6B)              -                    -                    -                    -                   
+INFO:tt_algo:saturday             MC (6B)              -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Mr. M Seshaiah       9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    CO (4B)              -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    -                    -                    CO (4B)              -                    -                    -                    CO (4B)             
+INFO:tt_algo:thursday             -                    -                    -                    CO (4B)              -                    -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_algo:... generating ...
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Shilpa M K', 'CG')
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Shilpa M K', 'CG')
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Vinutha K', 'CN')
+INFO:tt_algo:
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 4A ('Data Communications', 5, 'Mr. Srinivasa Murthy H', 'DC')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 4B ('Unix Programming', 4, 'Mr. Diwakar KM', 'Unix')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Naveen Chandavarkar', 'BAI')
+INFO:tt_algo:no free slots for 8A ('', 5, '', 'OE')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Rama Krishna', 'EM')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Naveen Chandavarkar', 'BAI')
+INFO:tt_algo:no free slots for 8A ('', 5, '', 'OE')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Sunil Kumar Aithal', 'BAI')
+INFO:tt_algo:no free slots for 8B ('', 5, '', 'OE')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Rama Krishna', 'EM')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Sunil Kumar Aithal', 'BAI')
+INFO:tt_algo:no free slots for 8B ('', 5, '', 'OE')
+INFO:tt_algo:... adjusting clashes ...
+INFO:tt_algo:8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:6A ('', 1, 'Mrs. Archana N', 'ESD')
+INFO:tt_algo:6A ('', 5, 'Mr. Mahesh Kini', 'ST')
+INFO:tt_algo:4A ('Computer Organization & Architecture', 5, 'Mr. Pampana', 'CO')
+INFO:tt_algo:5
+INFO:tt_algo:... 2nd pass ...
+INFO:tt_algo:8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:6A ('', 1, 'Mrs. Archana N', 'ESD')
+INFO:tt_algo:6A ('', 5, 'Mr. Mahesh Kini', 'ST')
+INFO:tt_algo:4A ('Computer Organization & Architecture', 5, 'Mr. Pampana', 'CO')
+INFO:tt_algo:5
+INFO:tt_algo:4A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               DAA                  Maths                -                    Unix                 DC                   -                    DC                   FAFL                
+INFO:tt_algo:tuesday              CO                   DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         CO                   Maths                DAA                  FAFL                
+INFO:tt_algo:wednesday            Unix                 DAA                  -                    DC                   FAFL                 -                    Unix                 CO                  
+INFO:tt_algo:thursday             Unix                 DAA                  -                    DC                   FAFL                 Maths                Maths                Maths               
+INFO:tt_algo:friday               FAFL                 DAA                  -                    CO                   -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:saturday             Unix                 DC                   -                    ESC                  ESC                 
+INFO:tt_algo:
+
+INFO:tt_algo:4B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               DAA                  Unix                 -                    DC                   CO                   DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:tuesday              Unix                 DAA                  -                    Maths                FAFL                 -                    FAFL                 DC                  
+INFO:tt_algo:wednesday            Unix                 DC                   -                    CO                   DAA                  Maths                FAFL                 CO                  
+INFO:tt_algo:thursday             Maths                FAFL                 -                    CO                   DC                   -                    ESC                  ESC                 
+INFO:tt_algo:friday               -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                    -                    DAA                  Unix                
+INFO:tt_algo:saturday             Maths                Maths                -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               JIT                  CG/CN Lab            CG/CN Lab            CG/CN Lab            ST                   -                    CG                   CN                  
+INFO:tt_algo:tuesday              CG                   CN                   -                    CCIM                 CG                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:wednesday            JIT                  CG/CN Lab            CG/CN Lab            CG/CN Lab            ST                   -                    JIT                  CG                  
+INFO:tt_algo:thursday             CN                   CCIM                 MC                   JIT                  CG                   -                    CN                   ST                  
+INFO:tt_algo:friday               CN                   JIT                  -                    MC                   ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:saturday             MC                   CCIM                 -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               CG                   CN                   -                    JIT                  ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:tuesday              CG/CN Lab            CG/CN Lab            CG/CN Lab            CCIM                 CN                   -                    CG                   -                   
+INFO:tt_algo:wednesday            JIT                  CN                   -                    CG                   ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:thursday             CN                   CCIM                 MC                   CG                   JIT                  -                    ESD                  -                   
+INFO:tt_algo:friday               CG/CN Lab            CG/CN Lab            CG/CN Lab            MC                   ST                   -                    JIT                  -                   
+INFO:tt_algo:saturday             MC                   CCIM                 -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:8A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               OE                   EM                   -                    OE                   BAI                  -                    EM                   BAI                 
+INFO:tt_algo:tuesday              BAI                  BA                   -                    OE                   BAI                  -                    OE                   EM                  
+INFO:tt_algo:wednesday            BAI                  BA                   -                    EM                   OE                   -                    BA                   -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    EM                   -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    BA                   -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:8B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               BAI                  BA                   -                    EM                   BAI                  -                    OE                   BA                  
+INFO:tt_algo:tuesday              OE                   EM                   -                    EM                   BAI                  -                    BAI                  BA                  
+INFO:tt_algo:wednesday            OE                   EM                   -                    OE                   BAI                  -                    BA                   -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    OE                   -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    EM                   -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Mr. Manjunath M      9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    DC (4B)              -                    -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    DC (4B)             
+INFO:tt_algo:wednesday            -                    DC (4B)              -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    MC (6B)              -                    DC (4B)              -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    MC (6B)              -                    -                    -                    -                   
+INFO:tt_algo:saturday             MC (6B)              -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Mr. M Seshaiah       9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    CO (4B)              -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    -                    -                    CO (4B)              -                    -                    -                    CO (4B)             
+INFO:tt_algo:thursday             -                    -                    -                    CO (4B)              -                    -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_algo:... generating ...
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Shilpa M K', 'CG')
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Shilpa M K', 'CG')
+INFO:tt_algo:no free slots for 6A ('', 5, 'Mrs. Vinutha K', 'CN')
+INFO:tt_algo:
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 4A ('Data Communications', 5, 'Mr. Srinivasa Murthy H', 'DC')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 4B ('Unix Programming', 4, 'Mr. Diwakar KM', 'Unix')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Naveen Chandavarkar', 'BAI')
+INFO:tt_algo:no free slots for 8A ('', 5, '', 'OE')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Rama Krishna', 'EM')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:no free slots for 8A ('', 5, 'Mr. Naveen Chandavarkar', 'BAI')
+INFO:tt_algo:no free slots for 8A ('', 5, '', 'OE')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Sunil Kumar Aithal', 'BAI')
+INFO:tt_algo:no free slots for 8B ('', 5, '', 'OE')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Rama Krishna', 'EM')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:no free slots for 8B ('', 5, 'Mr. Sunil Kumar Aithal', 'BAI')
+INFO:tt_algo:no free slots for 8B ('', 5, '', 'OE')
+INFO:tt_algo:... adjusting clashes ...
+INFO:tt_algo:8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:6A ('', 1, 'Mrs. Archana N', 'ESD')
+INFO:tt_algo:6A ('', 5, 'Mr. Mahesh Kini', 'ST')
+INFO:tt_algo:4A ('Computer Organization & Architecture', 5, 'Mr. Pampana', 'CO')
+INFO:tt_algo:5
+INFO:tt_algo:... 2nd pass ...
+INFO:tt_algo:8A ('', 5, 'Dr. Mohammed Javed', 'BA')
+INFO:tt_algo:8B ('', 5, 'Mrs. Anisha P Rodrigues', 'BA')
+INFO:tt_algo:6A ('', 1, 'Mrs. Archana N', 'ESD')
+INFO:tt_algo:6A ('', 5, 'Mr. Mahesh Kini', 'ST')
+INFO:tt_algo:4A ('Computer Organization & Architecture', 5, 'Mr. Pampana', 'CO')
+INFO:tt_algo:5
+INFO:tt_algo:4A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               DAA                  Maths                -                    Unix                 DC                   -                    DC                   FAFL                
+INFO:tt_algo:tuesday              CO                   DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         CO                   Maths                DAA                  FAFL                
+INFO:tt_algo:wednesday            Unix                 DAA                  -                    DC                   FAFL                 -                    Unix                 CO                  
+INFO:tt_algo:thursday             Unix                 DAA                  -                    DC                   FAFL                 Maths                Maths                Maths               
+INFO:tt_algo:friday               FAFL                 DAA                  -                    CO                   -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:saturday             Unix                 DC                   -                    ESC                  ESC                 
+INFO:tt_algo:
+
+INFO:tt_algo:4B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               DAA                  Unix                 -                    DC                   CO                   DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:tuesday              Unix                 DAA                  -                    Maths                FAFL                 -                    FAFL                 DC                  
+INFO:tt_algo:wednesday            Unix                 DC                   -                    CO                   DAA                  Maths                FAFL                 CO                  
+INFO:tt_algo:thursday             Maths                FAFL                 -                    CO                   DC                   -                    ESC                  ESC                 
+INFO:tt_algo:friday               -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                    -                    DAA                  Unix                
+INFO:tt_algo:saturday             Maths                Maths                -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               JIT                  CG/CN Lab            CG/CN Lab            CG/CN Lab            ST                   -                    CG                   CN                  
+INFO:tt_algo:tuesday              CG                   CN                   -                    CCIM                 CG                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:wednesday            JIT                  CG/CN Lab            CG/CN Lab            CG/CN Lab            ST                   -                    JIT                  CG                  
+INFO:tt_algo:thursday             CN                   CCIM                 MC                   JIT                  CG                   -                    CN                   ST                  
+INFO:tt_algo:friday               CN                   JIT                  -                    MC                   ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:saturday             MC                   CCIM                 -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               CG                   CN                   -                    JIT                  ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:tuesday              CG/CN Lab            CG/CN Lab            CG/CN Lab            CCIM                 CN                   -                    CG                   -                   
+INFO:tt_algo:wednesday            JIT                  CN                   -                    CG                   ST                   JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:thursday             CN                   CCIM                 MC                   CG                   JIT                  -                    ESD                  -                   
+INFO:tt_algo:friday               CG/CN Lab            CG/CN Lab            CG/CN Lab            MC                   ST                   -                    JIT                  -                   
+INFO:tt_algo:saturday             MC                   CCIM                 -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:8A                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               OE                   EM                   -                    OE                   BAI                  -                    EM                   BAI                 
+INFO:tt_algo:tuesday              BAI                  BA                   -                    OE                   BAI                  -                    OE                   EM                  
+INFO:tt_algo:wednesday            BAI                  BA                   -                    EM                   OE                   -                    BA                   -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    EM                   -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    BA                   -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:8B                   9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               BAI                  BA                   -                    EM                   BAI                  -                    OE                   BA                  
+INFO:tt_algo:tuesday              OE                   EM                   -                    EM                   BAI                  -                    BAI                  BA                  
+INFO:tt_algo:wednesday            OE                   EM                   -                    OE                   BAI                  -                    BA                   -                   
+INFO:tt_algo:thursday             -                    -                    -                    -                    OE                   -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    EM                   -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Mr. Manjunath M      9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    DC (4B)              -                    -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    DC (4B)             
+INFO:tt_algo:wednesday            -                    DC (4B)              -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    -                    MC (6B)              -                    DC (4B)              -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    MC (6B)              -                    -                    -                    -                   
+INFO:tt_algo:saturday             MC (6B)              -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Mr. M Seshaiah       9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    CO (4B)              -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    -                    -                    CO (4B)              -                    -                    -                    CO (4B)             
+INFO:tt_algo:thursday             -                    -                    -                    CO (4B)              -                    -                    -                    -                   
+INFO:tt_algo:friday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+

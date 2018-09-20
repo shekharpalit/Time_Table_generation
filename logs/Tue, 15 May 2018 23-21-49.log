@@ -1,0 +1,210 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                             BISHAL BUDHATHOKI                                                    *
+INFO:tt_main:*                                             BIPLOVE SHAKYA                                                       *
+INFO:tt_main:*                                             SHEKHAR PALIT                                                        *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   S.J.C. Institute of Technology, SJCIT                                          *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+DEBUG:tt_main:Initializing and setting up fifth window
+DEBUG:tt_main:Year Window
+INFO:tt_main:Academic year: January 2018 July 2018 Department: Computer Science & Engineering
+DEBUG:tt_main:First Window
+INFO:tt_main:Input type: Faculty
+INFO:tt_main:Selected row in list: []
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Mr. hjgjh Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('hjgjh', 'Mr.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Dr. anu Associate Professor
+INFO:tt_main:Faculty list: [faculty_class('hjgjh', 'Mr.', 'Assistant Professor'), faculty_class('anu', 'Dr.', 'Associate Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Mr. srinath Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('hjgjh', 'Mr.', 'Assistant Professor'), faculty_class('anu', 'Dr.', 'Associate Professor'), faculty_class('srinath', 'Mr.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Ms. sush Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('hjgjh', 'Mr.', 'Assistant Professor'), faculty_class('anu', 'Dr.', 'Associate Professor'), faculty_class('srinath', 'Mr.', 'Assistant Professor'), faculty_class('sush', 'Ms.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Mr. jaggu Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('hjgjh', 'Mr.', 'Assistant Professor'), faculty_class('anu', 'Dr.', 'Associate Professor'), faculty_class('srinath', 'Mr.', 'Assistant Professor'), faculty_class('sush', 'Ms.', 'Assistant Professor'), faculty_class('jaggu', 'Mr.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Faculty
+DEBUG:tt_main:Faculty details(title, name, designation): Mrs. arc Assistant Professor
+INFO:tt_main:Faculty list: [faculty_class('hjgjh', 'Mr.', 'Assistant Professor'), faculty_class('anu', 'Dr.', 'Associate Professor'), faculty_class('srinath', 'Mr.', 'Assistant Professor'), faculty_class('sush', 'Ms.', 'Assistant Professor'), faculty_class('jaggu', 'Mr.', 'Assistant Professor'), faculty_class('arc', 'Mrs.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [])])
+INFO:tt_main:Input type: Subjects
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:VIII 0
+INFO:tt_main:Selected row in list: []
+INFO:tt_main:VIII 1
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :saaa sa 5 False
+INFO:tt_main:Faculty list: [faculty_class('hjgjh', 'Mr.', 'Assistant Professor'), faculty_class('anu', 'Dr.', 'Associate Professor'), faculty_class('srinath', 'Mr.', 'Assistant Professor'), faculty_class('sush', 'Ms.', 'Assistant Professor'), faculty_class('jaggu', 'Mr.', 'Assistant Professor'), faculty_class('arc', 'Mrs.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [subject('saaa', 'sa', 5, False, '10is81')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :smss sms 5 False
+INFO:tt_main:Faculty list: [faculty_class('hjgjh', 'Mr.', 'Assistant Professor'), faculty_class('anu', 'Dr.', 'Associate Professor'), faculty_class('srinath', 'Mr.', 'Assistant Professor'), faculty_class('sush', 'Ms.', 'Assistant Professor'), faculty_class('jaggu', 'Mr.', 'Assistant Professor'), faculty_class('arc', 'Mrs.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [subject('saaa', 'sa', 5, False, '10is81'), subject('smss', 'sms', 5, False, '10cs82')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :project seminar ps 3 False
+INFO:tt_main:Faculty list: [faculty_class('hjgjh', 'Mr.', 'Assistant Professor'), faculty_class('anu', 'Dr.', 'Associate Professor'), faculty_class('srinath', 'Mr.', 'Assistant Professor'), faculty_class('sush', 'Ms.', 'Assistant Professor'), faculty_class('jaggu', 'Mr.', 'Assistant Professor'), faculty_class('arc', 'Mrs.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [subject('saaa', 'sa', 5, False, '10is81'), subject('smss', 'sms', 5, False, '10cs82'), subject('project seminar', 'ps', 3, False, '10cs85')])])
+DEBUG:tt_main:Add button first form
+DEBUG:tt_main:Adding new item
+DEBUG:tt_main:Input type: Subjects
+INFO:tt_main:Subject details(name, shortname, credits, lab) :techt ts 3 False
+INFO:tt_main:Faculty list: [faculty_class('hjgjh', 'Mr.', 'Assistant Professor'), faculty_class('anu', 'Dr.', 'Associate Professor'), faculty_class('srinath', 'Mr.', 'Assistant Professor'), faculty_class('sush', 'Ms.', 'Assistant Professor'), faculty_class('jaggu', 'Mr.', 'Assistant Professor'), faculty_class('arc', 'Mrs.', 'Assistant Professor')]
+INFO:tt_main:Subjects list: OrderedDict([('III', []), ('IV', []), ('V', []), ('VI', []), ('VII', []), ('VIII', [subject('saaa', 'sa', 5, False, '10is81'), subject('smss', 'sms', 5, False, '10cs82'), subject('project seminar', 'ps', 3, False, '10cs85'), subject('techt', 'ts', 3, False, 'lkjdas')])])
+DEBUG:tt_main:Elective button first form
+INFO:tt_main:Elective Window
+DEBUG:tt_main:Resetting Elective Window
+INFO:tt_main:No of elective groups 1
+INFO:tt_main:No of elective groups 2
+DEBUG:tt_main:Add button elective form
+DEBUG:tt_main:Adding ins elective to VIII in Elective 1
+INFO:tt_main:Elective details(name, shortname, credits, lab) :ins ins 5 False
+INFO:tt_main:Electives list: {'III': {}, 'IV': {}, 'V': {}, 'VI': {}, 'VII': {}, 'VIII': {'Elective 1': [subject('ins', 'ins', 5, False, 'asd')]}}
+DEBUG:tt_main:Add button elective form
+DEBUG:tt_main:Adding nms elective to VIII in Elective 2
+INFO:tt_main:Elective details(name, shortname, credits, lab) :nms nms 5 False
+INFO:tt_main:Electives list: {'III': {}, 'IV': {}, 'V': {}, 'VI': {}, 'VII': {}, 'VIII': {'Elective 1': [subject('ins', 'ins', 5, False, 'asd')], 'Elective 2': [subject('nms', 'nms', 5, False, 'asdasd')]}}
+DEBUG:tt_main:Elective button first form
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {}), ('IV', {}), ('V', {}), ('VI', {}), ('VII', {}), ('VIII', {'A': []})])
+INFO:tt_main:Displaying assigned subjects for anu
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['saaa - sa - anu']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for arc
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['saaa - sa - anu', 'smss - sms - arc']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for hjgjh
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['saaa - sa - anu', 'smss - sms - arc', 'ins - ins - hjgjh']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for jaggu
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['saaa - sa - anu', 'smss - sms - arc', 'ins - ins - hjgjh', 'techt - ts - jaggu']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for srinath
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['saaa - sa - anu', 'smss - sms - arc', 'ins - ins - hjgjh', 'techt - ts - jaggu', 'project seminar - ps - srinath']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+INFO:tt_main:Displaying assigned subjects for sush
+INFO:tt_main:Faculty subject allotments: []
+INFO:tt_main:Displaying assigned subjects for VIII A
+INFO:tt_main:Subject assignments: ['saaa - sa - anu', 'smss - sms - arc', 'ins - ins - hjgjh', 'techt - ts - jaggu', 'project seminar - ps - srinath', 'nms - nms - sush']
+INFO:tt_main:Subject assignments
+INFO:tt_main:Faculty subject allotments
+DEBUG:tt_main:Third Window
+INFO:tt_main:Semester: VIII
+INFO:tt_main:Subject constraints: {}
+DEBUG:tt_main:Fourth Window
+DEBUG:tt_main:Displaying faculty constraints for anu
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:2 0
+INFO:tt_main:Faculty constraints: {'anu': {2: {0: '-'}}}
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:2 1
+INFO:tt_main:Faculty constraints: {'anu': {2: {0: '-', 1: '-'}}}
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:3 4
+INFO:tt_main:Faculty constraints: {'anu': {2: {0: '-', 1: '-'}, 3: {4: '-'}}}
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:3 4
+INFO:tt_main:Faculty constraints: {'anu': {2: {0: '-', 1: '-'}, 3: {}}}
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:3 5
+INFO:tt_main:Faculty constraints: {'anu': {2: {0: '-', 1: '-'}, 3: {5: '-'}}}
+INFO:tt_main:Assigning faculty constraints
+INFO:tt_main:3 6
+INFO:tt_main:Faculty constraints: {'anu': {2: {0: '-', 1: '-'}, 3: {5: '-', 6: '-'}}}
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Fifth Window
+DEBUG:tt_main:Generating timetable...
+Scheduling slots...
+Alotting subjects to slots...
+INFO:tt_algo:...generating...
+INFO:tt_algo:
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               sa                   sms                  ins                  ts                   ps                   nms                  -                    -                   
+INFO:tt_algo:tuesday              sa                   sms                  ins                  ts                   ps                   nms                  -                    -                   
+INFO:tt_algo:wednesday            sms                  ins                  sa                   ts                   ps                   nms                  -                    -                   
+INFO:tt_algo:thursday             sa                   sms                  ins                  nms                  -                    -                    -                    -                   
+INFO:tt_algo:friday               sa                   sms                  ins                  nms                  -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:...adjusting clashes...
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               sa                   sms                  ins                  ts                   ps                   nms                  -                    -                   
+INFO:tt_algo:tuesday              sa                   sms                  ins                  ts                   ps                   nms                  -                    -                   
+INFO:tt_algo:wednesday            sms                  ins                  sa                   ts                   ps                   nms                  -                    -                   
+INFO:tt_algo:thursday             sa                   sms                  ins                  nms                  -                    -                    -                    -                   
+INFO:tt_algo:friday               sa                   sms                  ins                  nms                  -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:0
+DEBUG:tt_main:Displaying timetable for  
+DEBUG:tt_main:Results display dialog
+INFO:tt_main:Students
+DEBUG:tt_main:Populating section combobox for VIII semester
+DEBUG:tt_main:Displaying timetable for VIII A
+INFO:tt_main:Faculty
+INFO:tt_main:Faculty
+DEBUG:tt_main:Displaying timetable for anu
+DEBUG:tt_main:User has clicked on Exit/Finish/'X'
+DEBUG:tt_main:User clicked Yes
+DEBUG:tt_main:Quitting Program by user's choice, no errors

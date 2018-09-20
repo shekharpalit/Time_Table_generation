@@ -1,0 +1,35 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                               Nihal Rao I                                                        *
+INFO:tt_main:*                                             Sanjan S Poojari                                                     *
+INFO:tt_main:*                                             Shishir Upadhya                                                      *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   NMAM Institute of Technology, Nitte                                            *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+ERROR:tt_main:Logging an uncaught exception
+Traceback (most recent call last):
+  File "D:/Projects/timetable-master/timetable-master/ui_controller.py", line 2335, in <module>
+    main = ParentWindow()
+  File "D:/Projects/timetable-master/timetable-master/ui_controller.py", line 125, in __init__
+    self.setup_third_window()
+  File "D:/Projects/timetable-master/timetable-master/ui_controller.py", line 334, in setup_third_window
+    self.ui3.setupUi(self.ThirdWindow)
+  File "D:\Projects\timetable-master\timetable-master\window3.py", line 215, in setupUi
+    self.retranslateUi(window3)
+  File "D:\Projects\timetable-master\timetable-master\window3.py", line 257, in retranslateUi
+    item.setText(_translate("window3", "3:10-4:00"))
+AttributeError: 'NoneType' object has no attribute 'setText'

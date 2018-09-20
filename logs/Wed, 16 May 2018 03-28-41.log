@@ -1,0 +1,328 @@
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:*                                           TIMETABLE GENERATOR                                                    *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                   BY:                                                            *
+INFO:tt_main:*                                             BISHAL BUDHATHOKI                                                    *
+INFO:tt_main:*                                             BIPLOVE SHAKYA                                                       *
+INFO:tt_main:*                                             SHEKHAR PALIT                                                        *
+INFO:tt_main:*                              Department of Computer Science & Engineering                                        *
+INFO:tt_main:*                                                                                                                  *
+INFO:tt_main:*                                                  FOR:                                                            *
+INFO:tt_main:*                                   S.J.C. Institute of Technology, SJCIT                                          *
+INFO:tt_main:********************************************************************************************************************
+INFO:tt_main:Current Directory: D:\Projects\timetable-master\timetable-master
+INFO:tt_main:Current screen resolution: 1366 768
+INFO:tt_main:Resize ratio: 0.7
+DEBUG:tt_main:Initializing and setting up year window
+DEBUG:tt_main:Initializing and setting up first window
+DEBUG:tt_main:Initializing and setting up elective window
+DEBUG:tt_main:Initializing and setting up about window
+DEBUG:tt_main:Initializing and setting up license window
+DEBUG:tt_main:Initializing and setting up second window
+DEBUG:tt_main:Initializing and setting up third window
+DEBUG:tt_main:Initializing and setting up fourth window
+DEBUG:tt_main:Initializing and setting up fifth window
+DEBUG:tt_main:Year Window
+INFO:tt_main:Academic year: February 2018 June 2018 Department: Computer Science & Engineering
+DEBUG:tt_main:First Window
+INFO:tt_main:File Menu option clicked: Load
+DEBUG:tt_main:Load confirmed
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/eight
+INFO:tt_main:Loading from binary file
+INFO:tt_main:Subjects assigned to faculty: {'Ajay N': ['Project Seminar - PS - VIII A'], 'Apoorva': ['Software Architecture - SA - VIII A'], 'Bharathi M': ['System Modelling - SMS - VIII A'], 'Girish B G': ['Technical Seminar - TS - VIII A'], 'Harshavardhan Dodamane': ['Information And NS - INS - VIII A'], 'Vinutha K': ['Clouds,Grids,CLusters - CGC - VIII A']}
+INFO:tt_main:Faculty fixed slots: {}
+DEBUG:tt_main:Success. Loaded all saved data from D:/Projects/timetable-master/timetable-master/Sample Inputs/eight
+DEBUG:tt_main:Reset all windows and displaying 1st window
+DEBUG:tt_main:Resetting First Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {}), ('IV', {}), ('V', {}), ('VI', {}), ('VII', {}), ('VIII', {'A': ['Project Seminar - PS - Ajay N', 'System Modelling - SMS - Bharathi M', 'Software Architecture - SA - Apoorva', 'Technical Seminar - TS - Girish B G', 'Information And NS - INS - Harshavardhan Dodamane', 'Clouds,Grids,CLusters - CGC - Vinutha K']})])
+DEBUG:tt_main:Resetting Third Window
+DEBUG:tt_main:Resetting Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Resetting Elective Window
+DEBUG:tt_main:Resetting Year Window
+DEBUG:tt_main:Second Window
+DEBUG:tt_main:Resetting/Populating Second Window
+INFO:tt_main:Assigned Subjects: OrderedDict([('III', {}), ('IV', {}), ('V', {}), ('VI', {}), ('VII', {}), ('VIII', {'A': ['Project Seminar - PS - Ajay N', 'System Modelling - SMS - Bharathi M', 'Software Architecture - SA - Apoorva', 'Technical Seminar - TS - Girish B G', 'Information And NS - INS - Harshavardhan Dodamane', 'Clouds,Grids,CLusters - CGC - Vinutha K']})])
+DEBUG:tt_main:Third Window
+INFO:tt_main:Semester: VIII
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 0: 'SA', 1: 'SA', 2: 'SA', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {4: '-', 0: 'SMS', 1: 'SMS', 2: 'SMS', 3: 'CGC', 5: 'SA', 6: 'SA', 7: 'INS'}, 2: {4: '-', 0: 'CGC', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'INS', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:VIII A 0 4
+INFO:tt_main:VIII A 0 0
+INFO:tt_main:VIII A 0 1
+INFO:tt_main:VIII A 0 2
+INFO:tt_main:VIII A 0 3
+INFO:tt_main:VIII A 0 5
+INFO:tt_main:VIII A 0 6
+INFO:tt_main:VIII A 0 7
+INFO:tt_main:VIII A 1 4
+INFO:tt_main:VIII A 1 0
+INFO:tt_main:VIII A 1 1
+INFO:tt_main:VIII A 1 2
+INFO:tt_main:VIII A 1 3
+INFO:tt_main:VIII A 1 5
+INFO:tt_main:VIII A 1 6
+INFO:tt_main:VIII A 1 7
+INFO:tt_main:VIII A 2 4
+INFO:tt_main:VIII A 2 0
+INFO:tt_main:VIII A 2 1
+INFO:tt_main:VIII A 2 2
+INFO:tt_main:VIII A 2 3
+INFO:tt_main:VIII A 2 5
+INFO:tt_main:VIII A 2 6
+INFO:tt_main:VIII A 2 7
+INFO:tt_main:VIII A 3 4
+INFO:tt_main:VIII A 3 0
+INFO:tt_main:VIII A 3 1
+INFO:tt_main:VIII A 3 3
+INFO:tt_main:VIII A 3 5
+INFO:tt_main:VIII A 3 6
+INFO:tt_main:VIII A 3 7
+INFO:tt_main:VIII A 3 2
+INFO:tt_main:VIII A 4 4
+INFO:tt_main:VIII A 4 0
+INFO:tt_main:VIII A 4 1
+INFO:tt_main:VIII A 4 2
+INFO:tt_main:VIII A 4 3
+INFO:tt_main:VIII A 5 0
+INFO:tt_main:VIII A 5 1
+INFO:tt_main:VIII A 5 2
+INFO:tt_main:VIII A 5 3
+INFO:tt_main:Slot type: Project Seminar - PS
+INFO:tt_main:Slot type: Software Architecture - SA
+DEBUG:tt_main:Fourth Window
+DEBUG:tt_main:Third Window
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 0
+INFO:tt_main:SA exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 1: 'SA', 2: 'SA', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {4: '-', 0: 'SMS', 1: 'SMS', 2: 'SMS', 3: 'CGC', 5: 'SA', 6: 'SA', 7: 'INS'}, 2: {4: '-', 0: 'CGC', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'INS', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 0
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 1: 'SA', 2: 'SA', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {4: '-', 0: 'SA', 1: 'SMS', 2: 'SMS', 3: 'CGC', 5: 'SA', 6: 'SA', 7: 'INS'}, 2: {4: '-', 0: 'CGC', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'INS', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 0
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 1: 'SA', 2: 'SA', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {4: '-', 0: 'SA', 1: 'SMS', 2: 'SMS', 3: 'CGC', 5: 'SA', 6: 'SA', 7: 'INS'}, 2: {4: '-', 0: 'SA', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'INS', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 0
+INFO:tt_main:SA exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 1: 'SA', 2: 'SA', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {4: '-', 1: 'SMS', 2: 'SMS', 3: 'CGC', 5: 'SA', 6: 'SA', 7: 'INS'}, 2: {4: '-', 0: 'SA', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'INS', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 1
+INFO:tt_main:SA exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 2: 'SA', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {4: '-', 1: 'SMS', 2: 'SMS', 3: 'CGC', 5: 'SA', 6: 'SA', 7: 'INS'}, 2: {4: '-', 0: 'SA', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'INS', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 2
+INFO:tt_main:SA exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {4: '-', 1: 'SMS', 2: 'SMS', 3: 'CGC', 5: 'SA', 6: 'SA', 7: 'INS'}, 2: {4: '-', 0: 'SA', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'INS', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 0
+INFO:tt_main:SA exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {4: '-', 1: 'SMS', 2: 'SMS', 3: 'CGC', 5: 'SA', 6: 'SA', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'INS', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 4
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {4: 'SA', 1: 'SMS', 2: 'SMS', 3: 'CGC', 5: 'SA', 6: 'SA', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'INS', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 5
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {4: 'SA', 1: 'SMS', 2: 'SMS', 3: 'CGC', 5: 'SA', 6: 'SA', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 4
+INFO:tt_main:SA exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 5: 'SA', 6: 'SA', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 5
+INFO:tt_main:SA exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 6: 'SA', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 5: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 5
+INFO:tt_main:SA exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 6: 'SA', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 6
+INFO:tt_main:SA exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 0: 'PS', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Slot type: Project Seminar - PS
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 0
+INFO:tt_main:PS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 1: 'PS', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 1
+INFO:tt_main:PS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 2
+INFO:tt_main:PS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 3: 'PS', 5: 'TS', 6: 'TS', 7: 'TS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 3
+INFO:tt_main:PS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Slot type: Project Seminar - PS
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 0
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 1
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 2
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:3 3
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Slot type: -
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 5
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 6
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:4 7
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {1: 'SMS', 2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Slot type: System Modelling - SMS
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 1
+INFO:tt_main:SMS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {2: 'SMS', 3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 2
+INFO:tt_main:SMS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 3: 'SMS', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 3
+INFO:tt_main:SMS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {3: 'CGC', 7: 'INS'}, 2: {4: '-', 1: 'CGC', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Slot type: Clouds,Grids,CLusters - CGC
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 1
+INFO:tt_main:CGC exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {3: 'CGC', 7: 'INS'}, 2: {4: '-', 2: 'CGC', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 2
+INFO:tt_main:CGC exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {3: 'CGC', 7: 'INS'}, 2: {4: '-', 3: 'SA', 6: 'INS', 7: 'CGC'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 7
+INFO:tt_main:CGC exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {3: 'CGC', 7: 'INS'}, 2: {4: '-', 3: 'SA', 6: 'INS'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 3
+INFO:tt_main:CGC exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 5: 'INS', 6: 'INS', 7: 'INS'}, 1: {7: 'INS'}, 2: {4: '-', 3: 'SA', 6: 'INS'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Slot type: Information And NS - INS
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 5
+INFO:tt_main:INS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 6: 'INS', 7: 'INS'}, 1: {7: 'INS'}, 2: {4: '-', 3: 'SA', 6: 'INS'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 6
+INFO:tt_main:INS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-', 7: 'INS'}, 1: {7: 'INS'}, 2: {4: '-', 3: 'SA', 6: 'INS'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:0 7
+INFO:tt_main:INS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-'}, 1: {7: 'INS'}, 2: {4: '-', 3: 'SA', 6: 'INS'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 7
+INFO:tt_main:INS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-'}, 1: {}, 2: {4: '-', 3: 'SA', 6: 'INS'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 6
+INFO:tt_main:INS exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-'}, 1: {}, 2: {4: '-', 3: 'SA'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Slot type: Software Architecture - SA
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:2 3
+INFO:tt_main:SA exists
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-'}, 1: {}, 2: {4: '-'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Slot type: Information And NS - INS
+INFO:tt_main:Slot type: Information And NS - INS
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 4
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-'}, 1: {4: 'INS'}, 2: {4: '-'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+INFO:tt_main:Slot type: -
+INFO:tt_main:Assigning subject constraints
+INFO:tt_main:1 4
+INFO:tt_main:Subject constraints: {'VIII': {'A': {0: {4: '-'}, 1: {4: '-'}, 2: {4: '-'}, 3: {4: '-', 5: 'TS', 6: 'TS', 7: 'TS', 0: 'PS', 1: 'PS', 2: 'PS', 3: 'PS'}, 4: {4: '-', 0: 'TS', 1: 'TS', 2: 'TS', 3: 'PS', 5: '-', 6: '-', 7: '-'}, 5: {0: '-', 1: '-', 2: '-', 3: '-'}}}}
+DEBUG:tt_main:Fourth Window
+DEBUG:tt_main:Resetting Fifth Window
+DEBUG:tt_main:Fifth Window
+DEBUG:tt_main:Generating timetable...
+Scheduling slots...
+Alotting subjects to slots...
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:tuesday              -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    -                    -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:thursday             PS                   PS                   PS                   PS                   -                    TS                   TS                   TS                  
+INFO:tt_algo:friday               TS                   TS                   TS                   PS                   -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:...generating...
+INFO:tt_algo:
+INFO:tt_algo:no free slots for VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:no free slots for VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:no free slots for VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:no free slots for VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:no free slots for VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:no free slots for VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:no free slots for VIII A ['Project Seminar', 5, 'Ajay N', 'PS']
+INFO:tt_algo:no free slots for VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:no free slots for VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:no free slots for VIII A ['Technical Seminar', 5, 'Girish B G', 'TS']
+INFO:tt_algo:no free slots for VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:no free slots for VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               PS                   SMS                  SA                   TS                   -                    INS                  CGC                  -                   
+INFO:tt_algo:tuesday              CGC                  PS                   SMS                  SA                   -                    TS                   INS                  -                   
+INFO:tt_algo:wednesday            INS                  CGC                  PS                   SMS                  -                    SA                   TS                   -                   
+INFO:tt_algo:thursday             PS                   PS                   PS                   PS                   -                    TS                   TS                   TS                  
+INFO:tt_algo:friday               TS                   TS                   TS                   PS                   -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:...adjusting clashes...
+INFO:tt_algo:VIII A               9:00-10:00           10:00-10:50          10:50-11:00          11:00-11:50          11:50-12:40          12:40-1:30           1:30-2:20            2:20-3:10            3:10-4:00            
+INFO:tt_algo:monday               TS                   PS                   TS                   PS                   -                    SMS                  SA                   INS                 
+INFO:tt_algo:tuesday              TS                   PS                   TS                   PS                   -                    CGC                  SMS                  SA                  
+INFO:tt_algo:wednesday            TS                   PS                   CGC                  INS                  -                    INS                  CGC                  SMS                 
+INFO:tt_algo:thursday             PS                   PS                   PS                   PS                   -                    TS                   TS                   TS                  
+INFO:tt_algo:friday               TS                   TS                   TS                   PS                   -                    -                    -                    -                   
+INFO:tt_algo:saturday             -                    -                    -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:VIII A ['Information And NS', 5, 'Harshavardhan Dodamane', 'INS']
+INFO:tt_algo:VIII A ['Clouds,Grids,CLusters', 5, 'Vinutha K', 'CGC']
+INFO:tt_algo:VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:VIII A ['System Modelling', 5, 'Bharathi M', 'SMS']
+INFO:tt_algo:VIII A ['Software Architecture', 5, 'Apoorva', 'SA']
+INFO:tt_algo:9
+DEBUG:tt_main:Displaying timetable for  
+DEBUG:tt_main:Results display dialog
+INFO:tt_main:Students
+DEBUG:tt_main:Populating section combobox for VIII semester
+DEBUG:tt_main:Displaying timetable for VIII A
+DEBUG:tt_main:Populating section combobox for VII semester
+DEBUG:tt_main:Displaying timetable for VII 
+DEBUG:tt_main:Populating section combobox for IV semester
+DEBUG:tt_main:Displaying timetable for IV 
+DEBUG:tt_main:Populating section combobox for III semester
+DEBUG:tt_main:Displaying timetable for III 
+DEBUG:tt_main:Populating section combobox for VIII semester
+DEBUG:tt_main:Displaying timetable for VIII A
+INFO:tt_main:File Menu option clicked: Save As
+DEBUG:tt_main:Save file dialog
+INFO:tt_main:File name: D:/Projects/timetable-master/timetable-master/Sample Inputs/eight.json
+INFO:tt_main:Saving as json file
+DEBUG:tt_main:Success. Saved to D:/Projects/timetable-master/timetable-master/Sample Inputs/eight.json
+DEBUG:tt_main:User has clicked on Exit/Finish/'X'
+DEBUG:tt_main:User clicked Save. Program will save and exit
+INFO:tt_main:Saving as json file
+DEBUG:tt_main:Success. Saved to D:/Projects/timetable-master/timetable-master/Sample Inputs/eight.json
+DEBUG:tt_main:Quitting Program by user's choice, no errors
