@@ -1,4 +1,4 @@
-# Time_Table_generation
+# Time Table generation using Genetic Algorithm
 
 - The goal of this project is to generate time table based on university requirements
 - This problem is a NP hard problem, and due to less amount of data, we used genetic algorithm instead of using machine/Deep learning techniques.
